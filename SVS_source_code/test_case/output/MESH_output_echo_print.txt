@@ -1,0 +1,2220 @@
+ MESH 1.4 ---  (1813)
+ 
+ READING: (creating basin for point mode)
+   10 valid fields found in the file.
+   INFO: Found the variable 'projection'.
+   INFO: Found the variable 'ellipsoid'.
+   INFO: Found the variable 'Rank'.
+   INFO: Found the variable 'Next'.
+   INFO: Found the variable 'lat'.
+   INFO: Found the variable 'lon'.
+   INFO: Found the variable 'GridArea'.
+   INFO: Found the variable 'ngru'.
+   INFO: Found the variable 'gru 1'.
+   INFO: Found the variable 'gru 2'.
+   INFO: Assigned the variable 'Next'.
+   INFO: Assigned the variable 'GridArea'.
+   Total number of grids: 2
+   Total number of grids inside the basin: 1
+   Side length of grid: 1.00000000 m
+   Number of GRUs: 1
+   Number of land-based tiles: 1
+   Number of land tiles (NML): 1
+           Tile ID            Grid             GRU
+                 1               1               1
+   Number of water tiles (NMW): 0
+ READING: MESH_input_soil_levels.txt
+   Number of soil layers: 44
+             Level   Thickness (m)      Bottom (m)
+                 1   0.2500000E-01   0.2500000E-01
+                 2   0.2500000E-01   0.5000000E-01
+                 3   0.2500000E-01   0.7500000E-01
+                 4   0.2500000E-01   0.1000000
+                 5   0.2500000E-01   0.1250000
+                 6   0.2500000E-01   0.1500000
+                 7   0.5000000E-01   0.2000000
+                 8   0.5000000E-01   0.2500000
+                 9   0.5000000E-01   0.3000000
+                10   0.5000000E-01   0.3500000
+                11   0.5000000E-01   0.4000000
+                12   0.5000000E-01   0.4500000
+                13   0.5000000E-01   0.5000001
+                14   0.5000000E-01   0.5500001
+                15   0.5000000E-01   0.6000001
+                16   0.5000000E-01   0.6500001
+                17   0.5000000E-01   0.7000001
+                18   0.5000000E-01   0.7500001
+                19   0.5000000E-01   0.8000001
+                20   0.5000000E-01   0.8500001
+                21   0.5000000E-01   0.9000002
+                22   0.5000000E-01   0.9500002
+                23   0.5000000E-01    1.000000
+                24   0.5000000E-01    1.050000
+                25   0.5000000E-01    1.100000
+                26   0.5000000E-01    1.150000
+                27   0.5000000E-01    1.200000
+                28   0.5000000E-01    1.250000
+                29   0.5000000E-01    1.300000
+                30   0.5000000E-01    1.350000
+                31   0.5000000E-01    1.400000
+                32   0.5000000E-01    1.450000
+                33   0.5000000E-01    1.500000
+                34   0.5000000E-01    1.550000
+                35   0.5000000E-01    1.600000
+                36   0.5000000E-01    1.649999
+                37   0.5000000E-01    1.699999
+                38   0.5000000E-01    1.749999
+                39   0.2500000E-01    1.774999
+                40   0.2500000E-01    1.799999
+                41   0.2500000E-01    1.824999
+                42   0.2500000E-01    1.849999
+                43   0.2500000E-01    1.874999
+                44   0.2500000E-01    1.899999
+ READING: MESH_parameters.txt
+   Reading parameter: sand.
+   Reading parameter: clay.
+   Reading parameter: ksat.
+   WARNING: 'ksat' is not recognized.
+   Reading parameter: wsat.
+   WARNING: 'wsat' is not recognized.
+   Reading parameter: wfc.
+   WARNING: 'wfc' is not recognized.
+   Reading parameter: wwilt.
+   WARNING: 'wwilt' is not recognized.
+   Reading parameter: bcoef.
+   WARNING: 'bcoef' is not recognized.
+   Reading parameter: psisat.
+   WARNING: 'psisat' is not recognized.
+   Reading parameter: rhosoil.
+   WARNING: 'rhosoil' is not recognized.
+   Reading parameter: deglat.
+   Reading parameter: deglng.
+   Reading parameter: slop.
+   Reading parameter: zusl.
+   Reading parameter: ztsl.
+   Reading parameter: observed_forcing.
+   Reading parameter: draindens.
+   Reading parameter: vf.
+   Reading parameter: SCHMSOL.
+   REMARK: Overwriting or updating the existing 'SCHMSOL' value.
+   Reading parameter: lsoil_freezing_svs1.
+   Reading parameter: soiltext.
+   REMARK: Overwriting or updating the existing 'soiltext' value.
+   Reading parameter: read_user_parameters.
+   WARNING: 'read_user_parameters' is not recognized.
+   Reading parameter: save_minutes_csv.
+   WARNING: 'save_minutes_csv' is not recognized.
+   Reading parameter: water_ponding.
+   WARNING: 'water_ponding' is not recognized.
+   Reading parameter: KFICE.
+   WARNING: 'KFICE' is not recognized.
+   Reading parameter: OPT_SNOW.
+   WARNING: 'OPT_SNOW' is not recognized.
+   Reading parameter: OPT_FRAC.
+   WARNING: 'OPT_FRAC' is not recognized.
+   Reading parameter: OPT_LIQWAT.
+   WARNING: 'OPT_LIQWAT' is not recognized.
+   Reading parameter: WAT_REDIS.
+   WARNING: 'WAT_REDIS' is not recognized.
+   Reading parameter: tperm.
+   Reading parameter: user_wfcdp.
+   WARNING: 'user_wfcdp' is not recognized.
+   Reading parameter: KHYD.
+   REMARK: Overwriting or updating the existing 'KHYD' value.
+   Reading parameter: wsoil.
+   Reading parameter: isoil.
+   Reading parameter: tpsoil.
+   Reading parameter: tvege.
+   Reading parameter: tground.
+   Reading parameter: tsnowveg.
+   Reading parameter: tsnow.
+   Reading parameter: snvdp.
+   Reading parameter: snvden.
+   Reading parameter: snval.
+   Reading parameter: wsnv.
+   Reading parameter: snodpl.
+   Reading parameter: snoden.
+   Reading parameter: snoal.
+   Reading parameter: wsnow.
+   Active parameters in file: 30
+ 
+ READING: Resume run configuration
+   RESUMEFLAG is not active: RESUMEFLAG off
+   SAVERESUMEFLAG is not active: SAVERESUMEFLAG off
+ READING: basin_forcing.met
+   9 valid fields found in the file.
+   INFO: Found the variable 'FSIN'.
+   INFO: Found the variable 'FLIN'.
+   INFO: Found the variable 'PRE'.
+   INFO: Found the variable 'TA'.
+   INFO: Found the variable 'QA'.
+   INFO: Found the variable 'UV'.
+   INFO: Found the variable 'PRES'.
+   INFO: Found the variable 'PRERN'.
+   INFO: Found the variable 'PRESNO'.
+   INFO: Activated the variable 'FSIN'.
+   INFO: Activated the variable 'FLIN'.
+   INFO: Activated the variable 'PRE'.
+   INFO: Activated the variable 'TA'.
+   INFO: Activated the variable 'QA'.
+   INFO: Activated the variable 'UV'.
+   INFO: Activated the variable 'PRES'.
+   INFO: Activated the variable 'PRERN'.
+   INFO: Activated the variable 'PRESNO'.
+ 
+ 
+ The simulation starts at: 2018/07/01 05:00:00.000000
+ Checking the start dates of the input files...
+   INFO: The records in 'basin_forcing.met' start at: 2017/07/01 04:00:00.000000
+   Skipping 8761 records in 'basin_forcing.met'.
+ 
+ RUNSVS is active: SVS                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+   INFO: The 'PRERN' and 'PRESNO' variables are active. The 'PRE' variable is also active but inputs on the field are not being used.
+   INFO: 499 internal surface variables are active.
+ 
+ --------------------------------
+ SVS DIAGNOSTICS
+ --------------------------------
+ TILE:                    1
+ --------------------------------
+ LATITUDE:               45.8
+ LONGITUDE:             287.6
+ --------------------------------
+ ROUGHNESS LENGTH:    0.100
+ VEGETATION TEMP.:  293.000 293.000
+ VEGETATION COVER:
+ %  1199           0.000
+ %  1198           0.000
+ %  1197           0.000
+ %  1196           0.000
+ %  1195           0.000
+ %  1194           0.000
+ %  1193           0.000
+ %  1192           0.000
+ %  1191           0.000
+ %  1190           0.000
+ %  1189           0.000
+ %  1188           0.000
+ %  1187         100.000
+ %  1186           0.000
+ %  1185           0.000
+ %  1184           0.000
+ %  1183           0.000
+ %  1182           0.000
+ %  1181           0.000
+ %  1180           0.000
+ %  1179           0.000
+ %  1178           0.000
+ %  1177           0.000
+ %  1176           0.000
+ %  1175           0.000
+ %  1174           0.000
+ --------------------------------
+ FORCING LEVEL:    height
+  THERMO. HEIGHT:      1.500
+  MOMENTUM HEIGHT:    10.000
+ --------------------------------
+ SLOPE:               0.020
+ DRAIN.DENSITY        0.000
+ --------------------------------
+ SOIL MAPPING:
+ DATABASE: NIL
+ WEIGHTS [METERS]:
+  LAYER   1 DEPTH:    0.025
+   DB DEPTH:    0.025 WEIGHT:    1.000
+   DB DEPTH:    0.050 WEIGHT:    0.000
+   DB DEPTH:    0.075 WEIGHT:    0.000
+   DB DEPTH:    0.100 WEIGHT:    0.000
+   DB DEPTH:    0.125 WEIGHT:    0.000
+   DB DEPTH:    0.150 WEIGHT:    0.000
+   DB DEPTH:    0.200 WEIGHT:    0.000
+   DB DEPTH:    0.250 WEIGHT:    0.000
+   DB DEPTH:    0.300 WEIGHT:    0.000
+   DB DEPTH:    0.350 WEIGHT:    0.000
+   DB DEPTH:    0.400 WEIGHT:    0.000
+   DB DEPTH:    0.450 WEIGHT:    0.000
+   DB DEPTH:    0.500 WEIGHT:    0.000
+   DB DEPTH:    0.550 WEIGHT:    0.000
+   DB DEPTH:    0.600 WEIGHT:    0.000
+   DB DEPTH:    0.650 WEIGHT:    0.000
+   DB DEPTH:    0.700 WEIGHT:    0.000
+   DB DEPTH:    0.750 WEIGHT:    0.000
+   DB DEPTH:    0.800 WEIGHT:    0.000
+   DB DEPTH:    0.850 WEIGHT:    0.000
+   DB DEPTH:    0.900 WEIGHT:    0.000
+   DB DEPTH:    0.950 WEIGHT:    0.000
+   DB DEPTH:    1.000 WEIGHT:    0.000
+   DB DEPTH:    1.050 WEIGHT:    0.000
+   DB DEPTH:    1.100 WEIGHT:    0.000
+   DB DEPTH:    1.150 WEIGHT:    0.000
+   DB DEPTH:    1.200 WEIGHT:    0.000
+   DB DEPTH:    1.250 WEIGHT:    0.000
+   DB DEPTH:    1.300 WEIGHT:    0.000
+   DB DEPTH:    1.350 WEIGHT:    0.000
+   DB DEPTH:    1.400 WEIGHT:    0.000
+   DB DEPTH:    1.450 WEIGHT:    0.000
+   DB DEPTH:    1.500 WEIGHT:    0.000
+   DB DEPTH:    1.550 WEIGHT:    0.000
+   DB DEPTH:    1.600 WEIGHT:    0.000
+   DB DEPTH:    1.650 WEIGHT:    0.000
+   DB DEPTH:    1.700 WEIGHT:    0.000
+   DB DEPTH:    1.750 WEIGHT:    0.000
+   DB DEPTH:    1.775 WEIGHT:    0.000
+   DB DEPTH:    1.800 WEIGHT:    0.000
+   DB DEPTH:    1.825 WEIGHT:    0.000
+   DB DEPTH:    1.850 WEIGHT:    0.000
+   DB DEPTH:    1.875 WEIGHT:    0.000
+   DB DEPTH:    1.900 WEIGHT:    0.000
+  LAYER   2 DEPTH:    0.050
+   DB DEPTH:    0.025 WEIGHT:    0.000
+   DB DEPTH:    0.050 WEIGHT:    1.000
+   DB DEPTH:    0.075 WEIGHT:    0.000
+   DB DEPTH:    0.100 WEIGHT:    0.000
+   DB DEPTH:    0.125 WEIGHT:    0.000
+   DB DEPTH:    0.150 WEIGHT:    0.000
+   DB DEPTH:    0.200 WEIGHT:    0.000
+   DB DEPTH:    0.250 WEIGHT:    0.000
+   DB DEPTH:    0.300 WEIGHT:    0.000
+   DB DEPTH:    0.350 WEIGHT:    0.000
+   DB DEPTH:    0.400 WEIGHT:    0.000
+   DB DEPTH:    0.450 WEIGHT:    0.000
+   DB DEPTH:    0.500 WEIGHT:    0.000
+   DB DEPTH:    0.550 WEIGHT:    0.000
+   DB DEPTH:    0.600 WEIGHT:    0.000
+   DB DEPTH:    0.650 WEIGHT:    0.000
+   DB DEPTH:    0.700 WEIGHT:    0.000
+   DB DEPTH:    0.750 WEIGHT:    0.000
+   DB DEPTH:    0.800 WEIGHT:    0.000
+   DB DEPTH:    0.850 WEIGHT:    0.000
+   DB DEPTH:    0.900 WEIGHT:    0.000
+   DB DEPTH:    0.950 WEIGHT:    0.000
+   DB DEPTH:    1.000 WEIGHT:    0.000
+   DB DEPTH:    1.050 WEIGHT:    0.000
+   DB DEPTH:    1.100 WEIGHT:    0.000
+   DB DEPTH:    1.150 WEIGHT:    0.000
+   DB DEPTH:    1.200 WEIGHT:    0.000
+   DB DEPTH:    1.250 WEIGHT:    0.000
+   DB DEPTH:    1.300 WEIGHT:    0.000
+   DB DEPTH:    1.350 WEIGHT:    0.000
+   DB DEPTH:    1.400 WEIGHT:    0.000
+   DB DEPTH:    1.450 WEIGHT:    0.000
+   DB DEPTH:    1.500 WEIGHT:    0.000
+   DB DEPTH:    1.550 WEIGHT:    0.000
+   DB DEPTH:    1.600 WEIGHT:    0.000
+   DB DEPTH:    1.650 WEIGHT:    0.000
+   DB DEPTH:    1.700 WEIGHT:    0.000
+   DB DEPTH:    1.750 WEIGHT:    0.000
+   DB DEPTH:    1.775 WEIGHT:    0.000
+   DB DEPTH:    1.800 WEIGHT:    0.000
+   DB DEPTH:    1.825 WEIGHT:    0.000
+   DB DEPTH:    1.850 WEIGHT:    0.000
+   DB DEPTH:    1.875 WEIGHT:    0.000
+   DB DEPTH:    1.900 WEIGHT:    0.000
+  LAYER   3 DEPTH:    0.075
+   DB DEPTH:    0.025 WEIGHT:    0.000
+   DB DEPTH:    0.050 WEIGHT:    0.000
+   DB DEPTH:    0.075 WEIGHT:    1.000
+   DB DEPTH:    0.100 WEIGHT:    0.000
+   DB DEPTH:    0.125 WEIGHT:    0.000
+   DB DEPTH:    0.150 WEIGHT:    0.000
+   DB DEPTH:    0.200 WEIGHT:    0.000
+   DB DEPTH:    0.250 WEIGHT:    0.000
+   DB DEPTH:    0.300 WEIGHT:    0.000
+   DB DEPTH:    0.350 WEIGHT:    0.000
+   DB DEPTH:    0.400 WEIGHT:    0.000
+   DB DEPTH:    0.450 WEIGHT:    0.000
+   DB DEPTH:    0.500 WEIGHT:    0.000
+   DB DEPTH:    0.550 WEIGHT:    0.000
+   DB DEPTH:    0.600 WEIGHT:    0.000
+   DB DEPTH:    0.650 WEIGHT:    0.000
+   DB DEPTH:    0.700 WEIGHT:    0.000
+   DB DEPTH:    0.750 WEIGHT:    0.000
+   DB DEPTH:    0.800 WEIGHT:    0.000
+   DB DEPTH:    0.850 WEIGHT:    0.000
+   DB DEPTH:    0.900 WEIGHT:    0.000
+   DB DEPTH:    0.950 WEIGHT:    0.000
+   DB DEPTH:    1.000 WEIGHT:    0.000
+   DB DEPTH:    1.050 WEIGHT:    0.000
+   DB DEPTH:    1.100 WEIGHT:    0.000
+   DB DEPTH:    1.150 WEIGHT:    0.000
+   DB DEPTH:    1.200 WEIGHT:    0.000
+   DB DEPTH:    1.250 WEIGHT:    0.000
+   DB DEPTH:    1.300 WEIGHT:    0.000
+   DB DEPTH:    1.350 WEIGHT:    0.000
+   DB DEPTH:    1.400 WEIGHT:    0.000
+   DB DEPTH:    1.450 WEIGHT:    0.000
+   DB DEPTH:    1.500 WEIGHT:    0.000
+   DB DEPTH:    1.550 WEIGHT:    0.000
+   DB DEPTH:    1.600 WEIGHT:    0.000
+   DB DEPTH:    1.650 WEIGHT:    0.000
+   DB DEPTH:    1.700 WEIGHT:    0.000
+   DB DEPTH:    1.750 WEIGHT:    0.000
+   DB DEPTH:    1.775 WEIGHT:    0.000
+   DB DEPTH:    1.800 WEIGHT:    0.000
+   DB DEPTH:    1.825 WEIGHT:    0.000
+   DB DEPTH:    1.850 WEIGHT:    0.000
+   DB DEPTH:    1.875 WEIGHT:    0.000
+   DB DEPTH:    1.900 WEIGHT:    0.000
+  LAYER   4 DEPTH:    0.100
+   DB DEPTH:    0.025 WEIGHT:    0.000
+   DB DEPTH:    0.050 WEIGHT:    0.000
+   DB DEPTH:    0.075 WEIGHT:    0.000
+   DB DEPTH:    0.100 WEIGHT:    1.000
+   DB DEPTH:    0.125 WEIGHT:    0.000
+   DB DEPTH:    0.150 WEIGHT:    0.000
+   DB DEPTH:    0.200 WEIGHT:    0.000
+   DB DEPTH:    0.250 WEIGHT:    0.000
+   DB DEPTH:    0.300 WEIGHT:    0.000
+   DB DEPTH:    0.350 WEIGHT:    0.000
+   DB DEPTH:    0.400 WEIGHT:    0.000
+   DB DEPTH:    0.450 WEIGHT:    0.000
+   DB DEPTH:    0.500 WEIGHT:    0.000
+   DB DEPTH:    0.550 WEIGHT:    0.000
+   DB DEPTH:    0.600 WEIGHT:    0.000
+   DB DEPTH:    0.650 WEIGHT:    0.000
+   DB DEPTH:    0.700 WEIGHT:    0.000
+   DB DEPTH:    0.750 WEIGHT:    0.000
+   DB DEPTH:    0.800 WEIGHT:    0.000
+   DB DEPTH:    0.850 WEIGHT:    0.000
+   DB DEPTH:    0.900 WEIGHT:    0.000
+   DB DEPTH:    0.950 WEIGHT:    0.000
+   DB DEPTH:    1.000 WEIGHT:    0.000
+   DB DEPTH:    1.050 WEIGHT:    0.000
+   DB DEPTH:    1.100 WEIGHT:    0.000
+   DB DEPTH:    1.150 WEIGHT:    0.000
+   DB DEPTH:    1.200 WEIGHT:    0.000
+   DB DEPTH:    1.250 WEIGHT:    0.000
+   DB DEPTH:    1.300 WEIGHT:    0.000
+   DB DEPTH:    1.350 WEIGHT:    0.000
+   DB DEPTH:    1.400 WEIGHT:    0.000
+   DB DEPTH:    1.450 WEIGHT:    0.000
+   DB DEPTH:    1.500 WEIGHT:    0.000
+   DB DEPTH:    1.550 WEIGHT:    0.000
+   DB DEPTH:    1.600 WEIGHT:    0.000
+   DB DEPTH:    1.650 WEIGHT:    0.000
+   DB DEPTH:    1.700 WEIGHT:    0.000
+   DB DEPTH:    1.750 WEIGHT:    0.000
+   DB DEPTH:    1.775 WEIGHT:    0.000
+   DB DEPTH:    1.800 WEIGHT:    0.000
+   DB DEPTH:    1.825 WEIGHT:    0.000
+   DB DEPTH:    1.850 WEIGHT:    0.000
+   DB DEPTH:    1.875 WEIGHT:    0.000
+   DB DEPTH:    1.900 WEIGHT:    0.000
+  LAYER   5 DEPTH:    0.125
+   DB DEPTH:    0.025 WEIGHT:    0.000
+   DB DEPTH:    0.050 WEIGHT:    0.000
+   DB DEPTH:    0.075 WEIGHT:    0.000
+   DB DEPTH:    0.100 WEIGHT:    0.000
+   DB DEPTH:    0.125 WEIGHT:    1.000
+   DB DEPTH:    0.150 WEIGHT:    0.000
+   DB DEPTH:    0.200 WEIGHT:    0.000
+   DB DEPTH:    0.250 WEIGHT:    0.000
+   DB DEPTH:    0.300 WEIGHT:    0.000
+   DB DEPTH:    0.350 WEIGHT:    0.000
+   DB DEPTH:    0.400 WEIGHT:    0.000
+   DB DEPTH:    0.450 WEIGHT:    0.000
+   DB DEPTH:    0.500 WEIGHT:    0.000
+   DB DEPTH:    0.550 WEIGHT:    0.000
+   DB DEPTH:    0.600 WEIGHT:    0.000
+   DB DEPTH:    0.650 WEIGHT:    0.000
+   DB DEPTH:    0.700 WEIGHT:    0.000
+   DB DEPTH:    0.750 WEIGHT:    0.000
+   DB DEPTH:    0.800 WEIGHT:    0.000
+   DB DEPTH:    0.850 WEIGHT:    0.000
+   DB DEPTH:    0.900 WEIGHT:    0.000
+   DB DEPTH:    0.950 WEIGHT:    0.000
+   DB DEPTH:    1.000 WEIGHT:    0.000
+   DB DEPTH:    1.050 WEIGHT:    0.000
+   DB DEPTH:    1.100 WEIGHT:    0.000
+   DB DEPTH:    1.150 WEIGHT:    0.000
+   DB DEPTH:    1.200 WEIGHT:    0.000
+   DB DEPTH:    1.250 WEIGHT:    0.000
+   DB DEPTH:    1.300 WEIGHT:    0.000
+   DB DEPTH:    1.350 WEIGHT:    0.000
+   DB DEPTH:    1.400 WEIGHT:    0.000
+   DB DEPTH:    1.450 WEIGHT:    0.000
+   DB DEPTH:    1.500 WEIGHT:    0.000
+   DB DEPTH:    1.550 WEIGHT:    0.000
+   DB DEPTH:    1.600 WEIGHT:    0.000
+   DB DEPTH:    1.650 WEIGHT:    0.000
+   DB DEPTH:    1.700 WEIGHT:    0.000
+   DB DEPTH:    1.750 WEIGHT:    0.000
+   DB DEPTH:    1.775 WEIGHT:    0.000
+   DB DEPTH:    1.800 WEIGHT:    0.000
+   DB DEPTH:    1.825 WEIGHT:    0.000
+   DB DEPTH:    1.850 WEIGHT:    0.000
+   DB DEPTH:    1.875 WEIGHT:    0.000
+   DB DEPTH:    1.900 WEIGHT:    0.000
+  LAYER   6 DEPTH:    0.150
+   DB DEPTH:    0.025 WEIGHT:    0.000
+   DB DEPTH:    0.050 WEIGHT:    0.000
+   DB DEPTH:    0.075 WEIGHT:    0.000
+   DB DEPTH:    0.100 WEIGHT:    0.000
+   DB DEPTH:    0.125 WEIGHT:    0.000
+   DB DEPTH:    0.150 WEIGHT:    1.000
+   DB DEPTH:    0.200 WEIGHT:    0.000
+   DB DEPTH:    0.250 WEIGHT:    0.000
+   DB DEPTH:    0.300 WEIGHT:    0.000
+   DB DEPTH:    0.350 WEIGHT:    0.000
+   DB DEPTH:    0.400 WEIGHT:    0.000
+   DB DEPTH:    0.450 WEIGHT:    0.000
+   DB DEPTH:    0.500 WEIGHT:    0.000
+   DB DEPTH:    0.550 WEIGHT:    0.000
+   DB DEPTH:    0.600 WEIGHT:    0.000
+   DB DEPTH:    0.650 WEIGHT:    0.000
+   DB DEPTH:    0.700 WEIGHT:    0.000
+   DB DEPTH:    0.750 WEIGHT:    0.000
+   DB DEPTH:    0.800 WEIGHT:    0.000
+   DB DEPTH:    0.850 WEIGHT:    0.000
+   DB DEPTH:    0.900 WEIGHT:    0.000
+   DB DEPTH:    0.950 WEIGHT:    0.000
+   DB DEPTH:    1.000 WEIGHT:    0.000
+   DB DEPTH:    1.050 WEIGHT:    0.000
+   DB DEPTH:    1.100 WEIGHT:    0.000
+   DB DEPTH:    1.150 WEIGHT:    0.000
+   DB DEPTH:    1.200 WEIGHT:    0.000
+   DB DEPTH:    1.250 WEIGHT:    0.000
+   DB DEPTH:    1.300 WEIGHT:    0.000
+   DB DEPTH:    1.350 WEIGHT:    0.000
+   DB DEPTH:    1.400 WEIGHT:    0.000
+   DB DEPTH:    1.450 WEIGHT:    0.000
+   DB DEPTH:    1.500 WEIGHT:    0.000
+   DB DEPTH:    1.550 WEIGHT:    0.000
+   DB DEPTH:    1.600 WEIGHT:    0.000
+   DB DEPTH:    1.650 WEIGHT:    0.000
+   DB DEPTH:    1.700 WEIGHT:    0.000
+   DB DEPTH:    1.750 WEIGHT:    0.000
+   DB DEPTH:    1.775 WEIGHT:    0.000
+   DB DEPTH:    1.800 WEIGHT:    0.000
+   DB DEPTH:    1.825 WEIGHT:    0.000
+   DB DEPTH:    1.850 WEIGHT:    0.000
+   DB DEPTH:    1.875 WEIGHT:    0.000
+   DB DEPTH:    1.900 WEIGHT:    0.000
+  LAYER   7 DEPTH:    0.200
+   DB DEPTH:    0.025 WEIGHT:    0.000
+   DB DEPTH:    0.050 WEIGHT:    0.000
+   DB DEPTH:    0.075 WEIGHT:    0.000
+   DB DEPTH:    0.100 WEIGHT:    0.000
+   DB DEPTH:    0.125 WEIGHT:    0.000
+   DB DEPTH:    0.150 WEIGHT:    0.000
+   DB DEPTH:    0.200 WEIGHT:    1.000
+   DB DEPTH:    0.250 WEIGHT:    0.000
+   DB DEPTH:    0.300 WEIGHT:    0.000
+   DB DEPTH:    0.350 WEIGHT:    0.000
+   DB DEPTH:    0.400 WEIGHT:    0.000
+   DB DEPTH:    0.450 WEIGHT:    0.000
+   DB DEPTH:    0.500 WEIGHT:    0.000
+   DB DEPTH:    0.550 WEIGHT:    0.000
+   DB DEPTH:    0.600 WEIGHT:    0.000
+   DB DEPTH:    0.650 WEIGHT:    0.000
+   DB DEPTH:    0.700 WEIGHT:    0.000
+   DB DEPTH:    0.750 WEIGHT:    0.000
+   DB DEPTH:    0.800 WEIGHT:    0.000
+   DB DEPTH:    0.850 WEIGHT:    0.000
+   DB DEPTH:    0.900 WEIGHT:    0.000
+   DB DEPTH:    0.950 WEIGHT:    0.000
+   DB DEPTH:    1.000 WEIGHT:    0.000
+   DB DEPTH:    1.050 WEIGHT:    0.000
+   DB DEPTH:    1.100 WEIGHT:    0.000
+   DB DEPTH:    1.150 WEIGHT:    0.000
+   DB DEPTH:    1.200 WEIGHT:    0.000
+   DB DEPTH:    1.250 WEIGHT:    0.000
+   DB DEPTH:    1.300 WEIGHT:    0.000
+   DB DEPTH:    1.350 WEIGHT:    0.000
+   DB DEPTH:    1.400 WEIGHT:    0.000
+   DB DEPTH:    1.450 WEIGHT:    0.000
+   DB DEPTH:    1.500 WEIGHT:    0.000
+   DB DEPTH:    1.550 WEIGHT:    0.000
+   DB DEPTH:    1.600 WEIGHT:    0.000
+   DB DEPTH:    1.650 WEIGHT:    0.000
+   DB DEPTH:    1.700 WEIGHT:    0.000
+   DB DEPTH:    1.750 WEIGHT:    0.000
+   DB DEPTH:    1.775 WEIGHT:    0.000
+   DB DEPTH:    1.800 WEIGHT:    0.000
+   DB DEPTH:    1.825 WEIGHT:    0.000
+   DB DEPTH:    1.850 WEIGHT:    0.000
+   DB DEPTH:    1.875 WEIGHT:    0.000
+   DB DEPTH:    1.900 WEIGHT:    0.000
+  LAYER   8 DEPTH:    0.250
+   DB DEPTH:    0.025 WEIGHT:    0.000
+   DB DEPTH:    0.050 WEIGHT:    0.000
+   DB DEPTH:    0.075 WEIGHT:    0.000
+   DB DEPTH:    0.100 WEIGHT:    0.000
+   DB DEPTH:    0.125 WEIGHT:    0.000
+   DB DEPTH:    0.150 WEIGHT:    0.000
+   DB DEPTH:    0.200 WEIGHT:    0.000
+   DB DEPTH:    0.250 WEIGHT:    1.000
+   DB DEPTH:    0.300 WEIGHT:    0.000
+   DB DEPTH:    0.350 WEIGHT:    0.000
+   DB DEPTH:    0.400 WEIGHT:    0.000
+   DB DEPTH:    0.450 WEIGHT:    0.000
+   DB DEPTH:    0.500 WEIGHT:    0.000
+   DB DEPTH:    0.550 WEIGHT:    0.000
+   DB DEPTH:    0.600 WEIGHT:    0.000
+   DB DEPTH:    0.650 WEIGHT:    0.000
+   DB DEPTH:    0.700 WEIGHT:    0.000
+   DB DEPTH:    0.750 WEIGHT:    0.000
+   DB DEPTH:    0.800 WEIGHT:    0.000
+   DB DEPTH:    0.850 WEIGHT:    0.000
+   DB DEPTH:    0.900 WEIGHT:    0.000
+   DB DEPTH:    0.950 WEIGHT:    0.000
+   DB DEPTH:    1.000 WEIGHT:    0.000
+   DB DEPTH:    1.050 WEIGHT:    0.000
+   DB DEPTH:    1.100 WEIGHT:    0.000
+   DB DEPTH:    1.150 WEIGHT:    0.000
+   DB DEPTH:    1.200 WEIGHT:    0.000
+   DB DEPTH:    1.250 WEIGHT:    0.000
+   DB DEPTH:    1.300 WEIGHT:    0.000
+   DB DEPTH:    1.350 WEIGHT:    0.000
+   DB DEPTH:    1.400 WEIGHT:    0.000
+   DB DEPTH:    1.450 WEIGHT:    0.000
+   DB DEPTH:    1.500 WEIGHT:    0.000
+   DB DEPTH:    1.550 WEIGHT:    0.000
+   DB DEPTH:    1.600 WEIGHT:    0.000
+   DB DEPTH:    1.650 WEIGHT:    0.000
+   DB DEPTH:    1.700 WEIGHT:    0.000
+   DB DEPTH:    1.750 WEIGHT:    0.000
+   DB DEPTH:    1.775 WEIGHT:    0.000
+   DB DEPTH:    1.800 WEIGHT:    0.000
+   DB DEPTH:    1.825 WEIGHT:    0.000
+   DB DEPTH:    1.850 WEIGHT:    0.000
+   DB DEPTH:    1.875 WEIGHT:    0.000
+   DB DEPTH:    1.900 WEIGHT:    0.000
+  LAYER   9 DEPTH:    0.300
+   DB DEPTH:    0.025 WEIGHT:    0.000
+   DB DEPTH:    0.050 WEIGHT:    0.000
+   DB DEPTH:    0.075 WEIGHT:    0.000
+   DB DEPTH:    0.100 WEIGHT:    0.000
+   DB DEPTH:    0.125 WEIGHT:    0.000
+   DB DEPTH:    0.150 WEIGHT:    0.000
+   DB DEPTH:    0.200 WEIGHT:    0.000
+   DB DEPTH:    0.250 WEIGHT:    0.000
+   DB DEPTH:    0.300 WEIGHT:    1.000
+   DB DEPTH:    0.350 WEIGHT:    0.000
+   DB DEPTH:    0.400 WEIGHT:    0.000
+   DB DEPTH:    0.450 WEIGHT:    0.000
+   DB DEPTH:    0.500 WEIGHT:    0.000
+   DB DEPTH:    0.550 WEIGHT:    0.000
+   DB DEPTH:    0.600 WEIGHT:    0.000
+   DB DEPTH:    0.650 WEIGHT:    0.000
+   DB DEPTH:    0.700 WEIGHT:    0.000
+   DB DEPTH:    0.750 WEIGHT:    0.000
+   DB DEPTH:    0.800 WEIGHT:    0.000
+   DB DEPTH:    0.850 WEIGHT:    0.000
+   DB DEPTH:    0.900 WEIGHT:    0.000
+   DB DEPTH:    0.950 WEIGHT:    0.000
+   DB DEPTH:    1.000 WEIGHT:    0.000
+   DB DEPTH:    1.050 WEIGHT:    0.000
+   DB DEPTH:    1.100 WEIGHT:    0.000
+   DB DEPTH:    1.150 WEIGHT:    0.000
+   DB DEPTH:    1.200 WEIGHT:    0.000
+   DB DEPTH:    1.250 WEIGHT:    0.000
+   DB DEPTH:    1.300 WEIGHT:    0.000
+   DB DEPTH:    1.350 WEIGHT:    0.000
+   DB DEPTH:    1.400 WEIGHT:    0.000
+   DB DEPTH:    1.450 WEIGHT:    0.000
+   DB DEPTH:    1.500 WEIGHT:    0.000
+   DB DEPTH:    1.550 WEIGHT:    0.000
+   DB DEPTH:    1.600 WEIGHT:    0.000
+   DB DEPTH:    1.650 WEIGHT:    0.000
+   DB DEPTH:    1.700 WEIGHT:    0.000
+   DB DEPTH:    1.750 WEIGHT:    0.000
+   DB DEPTH:    1.775 WEIGHT:    0.000
+   DB DEPTH:    1.800 WEIGHT:    0.000
+   DB DEPTH:    1.825 WEIGHT:    0.000
+   DB DEPTH:    1.850 WEIGHT:    0.000
+   DB DEPTH:    1.875 WEIGHT:    0.000
+   DB DEPTH:    1.900 WEIGHT:    0.000
+  LAYER  10 DEPTH:    0.350
+   DB DEPTH:    0.025 WEIGHT:    0.000
+   DB DEPTH:    0.050 WEIGHT:    0.000
+   DB DEPTH:    0.075 WEIGHT:    0.000
+   DB DEPTH:    0.100 WEIGHT:    0.000
+   DB DEPTH:    0.125 WEIGHT:    0.000
+   DB DEPTH:    0.150 WEIGHT:    0.000
+   DB DEPTH:    0.200 WEIGHT:    0.000
+   DB DEPTH:    0.250 WEIGHT:    0.000
+   DB DEPTH:    0.300 WEIGHT:    0.000
+   DB DEPTH:    0.350 WEIGHT:    1.000
+   DB DEPTH:    0.400 WEIGHT:    0.000
+   DB DEPTH:    0.450 WEIGHT:    0.000
+   DB DEPTH:    0.500 WEIGHT:    0.000
+   DB DEPTH:    0.550 WEIGHT:    0.000
+   DB DEPTH:    0.600 WEIGHT:    0.000
+   DB DEPTH:    0.650 WEIGHT:    0.000
+   DB DEPTH:    0.700 WEIGHT:    0.000
+   DB DEPTH:    0.750 WEIGHT:    0.000
+   DB DEPTH:    0.800 WEIGHT:    0.000
+   DB DEPTH:    0.850 WEIGHT:    0.000
+   DB DEPTH:    0.900 WEIGHT:    0.000
+   DB DEPTH:    0.950 WEIGHT:    0.000
+   DB DEPTH:    1.000 WEIGHT:    0.000
+   DB DEPTH:    1.050 WEIGHT:    0.000
+   DB DEPTH:    1.100 WEIGHT:    0.000
+   DB DEPTH:    1.150 WEIGHT:    0.000
+   DB DEPTH:    1.200 WEIGHT:    0.000
+   DB DEPTH:    1.250 WEIGHT:    0.000
+   DB DEPTH:    1.300 WEIGHT:    0.000
+   DB DEPTH:    1.350 WEIGHT:    0.000
+   DB DEPTH:    1.400 WEIGHT:    0.000
+   DB DEPTH:    1.450 WEIGHT:    0.000
+   DB DEPTH:    1.500 WEIGHT:    0.000
+   DB DEPTH:    1.550 WEIGHT:    0.000
+   DB DEPTH:    1.600 WEIGHT:    0.000
+   DB DEPTH:    1.650 WEIGHT:    0.000
+   DB DEPTH:    1.700 WEIGHT:    0.000
+   DB DEPTH:    1.750 WEIGHT:    0.000
+   DB DEPTH:    1.775 WEIGHT:    0.000
+   DB DEPTH:    1.800 WEIGHT:    0.000
+   DB DEPTH:    1.825 WEIGHT:    0.000
+   DB DEPTH:    1.850 WEIGHT:    0.000
+   DB DEPTH:    1.875 WEIGHT:    0.000
+   DB DEPTH:    1.900 WEIGHT:    0.000
+  LAYER  11 DEPTH:    0.400
+   DB DEPTH:    0.025 WEIGHT:    0.000
+   DB DEPTH:    0.050 WEIGHT:    0.000
+   DB DEPTH:    0.075 WEIGHT:    0.000
+   DB DEPTH:    0.100 WEIGHT:    0.000
+   DB DEPTH:    0.125 WEIGHT:    0.000
+   DB DEPTH:    0.150 WEIGHT:    0.000
+   DB DEPTH:    0.200 WEIGHT:    0.000
+   DB DEPTH:    0.250 WEIGHT:    0.000
+   DB DEPTH:    0.300 WEIGHT:    0.000
+   DB DEPTH:    0.350 WEIGHT:    0.000
+   DB DEPTH:    0.400 WEIGHT:    1.000
+   DB DEPTH:    0.450 WEIGHT:    0.000
+   DB DEPTH:    0.500 WEIGHT:    0.000
+   DB DEPTH:    0.550 WEIGHT:    0.000
+   DB DEPTH:    0.600 WEIGHT:    0.000
+   DB DEPTH:    0.650 WEIGHT:    0.000
+   DB DEPTH:    0.700 WEIGHT:    0.000
+   DB DEPTH:    0.750 WEIGHT:    0.000
+   DB DEPTH:    0.800 WEIGHT:    0.000
+   DB DEPTH:    0.850 WEIGHT:    0.000
+   DB DEPTH:    0.900 WEIGHT:    0.000
+   DB DEPTH:    0.950 WEIGHT:    0.000
+   DB DEPTH:    1.000 WEIGHT:    0.000
+   DB DEPTH:    1.050 WEIGHT:    0.000
+   DB DEPTH:    1.100 WEIGHT:    0.000
+   DB DEPTH:    1.150 WEIGHT:    0.000
+   DB DEPTH:    1.200 WEIGHT:    0.000
+   DB DEPTH:    1.250 WEIGHT:    0.000
+   DB DEPTH:    1.300 WEIGHT:    0.000
+   DB DEPTH:    1.350 WEIGHT:    0.000
+   DB DEPTH:    1.400 WEIGHT:    0.000
+   DB DEPTH:    1.450 WEIGHT:    0.000
+   DB DEPTH:    1.500 WEIGHT:    0.000
+   DB DEPTH:    1.550 WEIGHT:    0.000
+   DB DEPTH:    1.600 WEIGHT:    0.000
+   DB DEPTH:    1.650 WEIGHT:    0.000
+   DB DEPTH:    1.700 WEIGHT:    0.000
+   DB DEPTH:    1.750 WEIGHT:    0.000
+   DB DEPTH:    1.775 WEIGHT:    0.000
+   DB DEPTH:    1.800 WEIGHT:    0.000
+   DB DEPTH:    1.825 WEIGHT:    0.000
+   DB DEPTH:    1.850 WEIGHT:    0.000
+   DB DEPTH:    1.875 WEIGHT:    0.000
+   DB DEPTH:    1.900 WEIGHT:    0.000
+  LAYER  12 DEPTH:    0.450
+   DB DEPTH:    0.025 WEIGHT:    0.000
+   DB DEPTH:    0.050 WEIGHT:    0.000
+   DB DEPTH:    0.075 WEIGHT:    0.000
+   DB DEPTH:    0.100 WEIGHT:    0.000
+   DB DEPTH:    0.125 WEIGHT:    0.000
+   DB DEPTH:    0.150 WEIGHT:    0.000
+   DB DEPTH:    0.200 WEIGHT:    0.000
+   DB DEPTH:    0.250 WEIGHT:    0.000
+   DB DEPTH:    0.300 WEIGHT:    0.000
+   DB DEPTH:    0.350 WEIGHT:    0.000
+   DB DEPTH:    0.400 WEIGHT:    0.000
+   DB DEPTH:    0.450 WEIGHT:    1.000
+   DB DEPTH:    0.500 WEIGHT:    0.000
+   DB DEPTH:    0.550 WEIGHT:    0.000
+   DB DEPTH:    0.600 WEIGHT:    0.000
+   DB DEPTH:    0.650 WEIGHT:    0.000
+   DB DEPTH:    0.700 WEIGHT:    0.000
+   DB DEPTH:    0.750 WEIGHT:    0.000
+   DB DEPTH:    0.800 WEIGHT:    0.000
+   DB DEPTH:    0.850 WEIGHT:    0.000
+   DB DEPTH:    0.900 WEIGHT:    0.000
+   DB DEPTH:    0.950 WEIGHT:    0.000
+   DB DEPTH:    1.000 WEIGHT:    0.000
+   DB DEPTH:    1.050 WEIGHT:    0.000
+   DB DEPTH:    1.100 WEIGHT:    0.000
+   DB DEPTH:    1.150 WEIGHT:    0.000
+   DB DEPTH:    1.200 WEIGHT:    0.000
+   DB DEPTH:    1.250 WEIGHT:    0.000
+   DB DEPTH:    1.300 WEIGHT:    0.000
+   DB DEPTH:    1.350 WEIGHT:    0.000
+   DB DEPTH:    1.400 WEIGHT:    0.000
+   DB DEPTH:    1.450 WEIGHT:    0.000
+   DB DEPTH:    1.500 WEIGHT:    0.000
+   DB DEPTH:    1.550 WEIGHT:    0.000
+   DB DEPTH:    1.600 WEIGHT:    0.000
+   DB DEPTH:    1.650 WEIGHT:    0.000
+   DB DEPTH:    1.700 WEIGHT:    0.000
+   DB DEPTH:    1.750 WEIGHT:    0.000
+   DB DEPTH:    1.775 WEIGHT:    0.000
+   DB DEPTH:    1.800 WEIGHT:    0.000
+   DB DEPTH:    1.825 WEIGHT:    0.000
+   DB DEPTH:    1.850 WEIGHT:    0.000
+   DB DEPTH:    1.875 WEIGHT:    0.000
+   DB DEPTH:    1.900 WEIGHT:    0.000
+  LAYER  13 DEPTH:    0.500
+   DB DEPTH:    0.025 WEIGHT:    0.000
+   DB DEPTH:    0.050 WEIGHT:    0.000
+   DB DEPTH:    0.075 WEIGHT:    0.000
+   DB DEPTH:    0.100 WEIGHT:    0.000
+   DB DEPTH:    0.125 WEIGHT:    0.000
+   DB DEPTH:    0.150 WEIGHT:    0.000
+   DB DEPTH:    0.200 WEIGHT:    0.000
+   DB DEPTH:    0.250 WEIGHT:    0.000
+   DB DEPTH:    0.300 WEIGHT:    0.000
+   DB DEPTH:    0.350 WEIGHT:    0.000
+   DB DEPTH:    0.400 WEIGHT:    0.000
+   DB DEPTH:    0.450 WEIGHT:    0.000
+   DB DEPTH:    0.500 WEIGHT:    1.000
+   DB DEPTH:    0.550 WEIGHT:    0.000
+   DB DEPTH:    0.600 WEIGHT:    0.000
+   DB DEPTH:    0.650 WEIGHT:    0.000
+   DB DEPTH:    0.700 WEIGHT:    0.000
+   DB DEPTH:    0.750 WEIGHT:    0.000
+   DB DEPTH:    0.800 WEIGHT:    0.000
+   DB DEPTH:    0.850 WEIGHT:    0.000
+   DB DEPTH:    0.900 WEIGHT:    0.000
+   DB DEPTH:    0.950 WEIGHT:    0.000
+   DB DEPTH:    1.000 WEIGHT:    0.000
+   DB DEPTH:    1.050 WEIGHT:    0.000
+   DB DEPTH:    1.100 WEIGHT:    0.000
+   DB DEPTH:    1.150 WEIGHT:    0.000
+   DB DEPTH:    1.200 WEIGHT:    0.000
+   DB DEPTH:    1.250 WEIGHT:    0.000
+   DB DEPTH:    1.300 WEIGHT:    0.000
+   DB DEPTH:    1.350 WEIGHT:    0.000
+   DB DEPTH:    1.400 WEIGHT:    0.000
+   DB DEPTH:    1.450 WEIGHT:    0.000
+   DB DEPTH:    1.500 WEIGHT:    0.000
+   DB DEPTH:    1.550 WEIGHT:    0.000
+   DB DEPTH:    1.600 WEIGHT:    0.000
+   DB DEPTH:    1.650 WEIGHT:    0.000
+   DB DEPTH:    1.700 WEIGHT:    0.000
+   DB DEPTH:    1.750 WEIGHT:    0.000
+   DB DEPTH:    1.775 WEIGHT:    0.000
+   DB DEPTH:    1.800 WEIGHT:    0.000
+   DB DEPTH:    1.825 WEIGHT:    0.000
+   DB DEPTH:    1.850 WEIGHT:    0.000
+   DB DEPTH:    1.875 WEIGHT:    0.000
+   DB DEPTH:    1.900 WEIGHT:    0.000
+  LAYER  14 DEPTH:    0.550
+   DB DEPTH:    0.025 WEIGHT:    0.000
+   DB DEPTH:    0.050 WEIGHT:    0.000
+   DB DEPTH:    0.075 WEIGHT:    0.000
+   DB DEPTH:    0.100 WEIGHT:    0.000
+   DB DEPTH:    0.125 WEIGHT:    0.000
+   DB DEPTH:    0.150 WEIGHT:    0.000
+   DB DEPTH:    0.200 WEIGHT:    0.000
+   DB DEPTH:    0.250 WEIGHT:    0.000
+   DB DEPTH:    0.300 WEIGHT:    0.000
+   DB DEPTH:    0.350 WEIGHT:    0.000
+   DB DEPTH:    0.400 WEIGHT:    0.000
+   DB DEPTH:    0.450 WEIGHT:    0.000
+   DB DEPTH:    0.500 WEIGHT:    0.000
+   DB DEPTH:    0.550 WEIGHT:    1.000
+   DB DEPTH:    0.600 WEIGHT:    0.000
+   DB DEPTH:    0.650 WEIGHT:    0.000
+   DB DEPTH:    0.700 WEIGHT:    0.000
+   DB DEPTH:    0.750 WEIGHT:    0.000
+   DB DEPTH:    0.800 WEIGHT:    0.000
+   DB DEPTH:    0.850 WEIGHT:    0.000
+   DB DEPTH:    0.900 WEIGHT:    0.000
+   DB DEPTH:    0.950 WEIGHT:    0.000
+   DB DEPTH:    1.000 WEIGHT:    0.000
+   DB DEPTH:    1.050 WEIGHT:    0.000
+   DB DEPTH:    1.100 WEIGHT:    0.000
+   DB DEPTH:    1.150 WEIGHT:    0.000
+   DB DEPTH:    1.200 WEIGHT:    0.000
+   DB DEPTH:    1.250 WEIGHT:    0.000
+   DB DEPTH:    1.300 WEIGHT:    0.000
+   DB DEPTH:    1.350 WEIGHT:    0.000
+   DB DEPTH:    1.400 WEIGHT:    0.000
+   DB DEPTH:    1.450 WEIGHT:    0.000
+   DB DEPTH:    1.500 WEIGHT:    0.000
+   DB DEPTH:    1.550 WEIGHT:    0.000
+   DB DEPTH:    1.600 WEIGHT:    0.000
+   DB DEPTH:    1.650 WEIGHT:    0.000
+   DB DEPTH:    1.700 WEIGHT:    0.000
+   DB DEPTH:    1.750 WEIGHT:    0.000
+   DB DEPTH:    1.775 WEIGHT:    0.000
+   DB DEPTH:    1.800 WEIGHT:    0.000
+   DB DEPTH:    1.825 WEIGHT:    0.000
+   DB DEPTH:    1.850 WEIGHT:    0.000
+   DB DEPTH:    1.875 WEIGHT:    0.000
+   DB DEPTH:    1.900 WEIGHT:    0.000
+  LAYER  15 DEPTH:    0.600
+   DB DEPTH:    0.025 WEIGHT:    0.000
+   DB DEPTH:    0.050 WEIGHT:    0.000
+   DB DEPTH:    0.075 WEIGHT:    0.000
+   DB DEPTH:    0.100 WEIGHT:    0.000
+   DB DEPTH:    0.125 WEIGHT:    0.000
+   DB DEPTH:    0.150 WEIGHT:    0.000
+   DB DEPTH:    0.200 WEIGHT:    0.000
+   DB DEPTH:    0.250 WEIGHT:    0.000
+   DB DEPTH:    0.300 WEIGHT:    0.000
+   DB DEPTH:    0.350 WEIGHT:    0.000
+   DB DEPTH:    0.400 WEIGHT:    0.000
+   DB DEPTH:    0.450 WEIGHT:    0.000
+   DB DEPTH:    0.500 WEIGHT:    0.000
+   DB DEPTH:    0.550 WEIGHT:    0.000
+   DB DEPTH:    0.600 WEIGHT:    1.000
+   DB DEPTH:    0.650 WEIGHT:    0.000
+   DB DEPTH:    0.700 WEIGHT:    0.000
+   DB DEPTH:    0.750 WEIGHT:    0.000
+   DB DEPTH:    0.800 WEIGHT:    0.000
+   DB DEPTH:    0.850 WEIGHT:    0.000
+   DB DEPTH:    0.900 WEIGHT:    0.000
+   DB DEPTH:    0.950 WEIGHT:    0.000
+   DB DEPTH:    1.000 WEIGHT:    0.000
+   DB DEPTH:    1.050 WEIGHT:    0.000
+   DB DEPTH:    1.100 WEIGHT:    0.000
+   DB DEPTH:    1.150 WEIGHT:    0.000
+   DB DEPTH:    1.200 WEIGHT:    0.000
+   DB DEPTH:    1.250 WEIGHT:    0.000
+   DB DEPTH:    1.300 WEIGHT:    0.000
+   DB DEPTH:    1.350 WEIGHT:    0.000
+   DB DEPTH:    1.400 WEIGHT:    0.000
+   DB DEPTH:    1.450 WEIGHT:    0.000
+   DB DEPTH:    1.500 WEIGHT:    0.000
+   DB DEPTH:    1.550 WEIGHT:    0.000
+   DB DEPTH:    1.600 WEIGHT:    0.000
+   DB DEPTH:    1.650 WEIGHT:    0.000
+   DB DEPTH:    1.700 WEIGHT:    0.000
+   DB DEPTH:    1.750 WEIGHT:    0.000
+   DB DEPTH:    1.775 WEIGHT:    0.000
+   DB DEPTH:    1.800 WEIGHT:    0.000
+   DB DEPTH:    1.825 WEIGHT:    0.000
+   DB DEPTH:    1.850 WEIGHT:    0.000
+   DB DEPTH:    1.875 WEIGHT:    0.000
+   DB DEPTH:    1.900 WEIGHT:    0.000
+  LAYER  16 DEPTH:    0.650
+   DB DEPTH:    0.025 WEIGHT:    0.000
+   DB DEPTH:    0.050 WEIGHT:    0.000
+   DB DEPTH:    0.075 WEIGHT:    0.000
+   DB DEPTH:    0.100 WEIGHT:    0.000
+   DB DEPTH:    0.125 WEIGHT:    0.000
+   DB DEPTH:    0.150 WEIGHT:    0.000
+   DB DEPTH:    0.200 WEIGHT:    0.000
+   DB DEPTH:    0.250 WEIGHT:    0.000
+   DB DEPTH:    0.300 WEIGHT:    0.000
+   DB DEPTH:    0.350 WEIGHT:    0.000
+   DB DEPTH:    0.400 WEIGHT:    0.000
+   DB DEPTH:    0.450 WEIGHT:    0.000
+   DB DEPTH:    0.500 WEIGHT:    0.000
+   DB DEPTH:    0.550 WEIGHT:    0.000
+   DB DEPTH:    0.600 WEIGHT:    0.000
+   DB DEPTH:    0.650 WEIGHT:    1.000
+   DB DEPTH:    0.700 WEIGHT:    0.000
+   DB DEPTH:    0.750 WEIGHT:    0.000
+   DB DEPTH:    0.800 WEIGHT:    0.000
+   DB DEPTH:    0.850 WEIGHT:    0.000
+   DB DEPTH:    0.900 WEIGHT:    0.000
+   DB DEPTH:    0.950 WEIGHT:    0.000
+   DB DEPTH:    1.000 WEIGHT:    0.000
+   DB DEPTH:    1.050 WEIGHT:    0.000
+   DB DEPTH:    1.100 WEIGHT:    0.000
+   DB DEPTH:    1.150 WEIGHT:    0.000
+   DB DEPTH:    1.200 WEIGHT:    0.000
+   DB DEPTH:    1.250 WEIGHT:    0.000
+   DB DEPTH:    1.300 WEIGHT:    0.000
+   DB DEPTH:    1.350 WEIGHT:    0.000
+   DB DEPTH:    1.400 WEIGHT:    0.000
+   DB DEPTH:    1.450 WEIGHT:    0.000
+   DB DEPTH:    1.500 WEIGHT:    0.000
+   DB DEPTH:    1.550 WEIGHT:    0.000
+   DB DEPTH:    1.600 WEIGHT:    0.000
+   DB DEPTH:    1.650 WEIGHT:    0.000
+   DB DEPTH:    1.700 WEIGHT:    0.000
+   DB DEPTH:    1.750 WEIGHT:    0.000
+   DB DEPTH:    1.775 WEIGHT:    0.000
+   DB DEPTH:    1.800 WEIGHT:    0.000
+   DB DEPTH:    1.825 WEIGHT:    0.000
+   DB DEPTH:    1.850 WEIGHT:    0.000
+   DB DEPTH:    1.875 WEIGHT:    0.000
+   DB DEPTH:    1.900 WEIGHT:    0.000
+  LAYER  17 DEPTH:    0.700
+   DB DEPTH:    0.025 WEIGHT:    0.000
+   DB DEPTH:    0.050 WEIGHT:    0.000
+   DB DEPTH:    0.075 WEIGHT:    0.000
+   DB DEPTH:    0.100 WEIGHT:    0.000
+   DB DEPTH:    0.125 WEIGHT:    0.000
+   DB DEPTH:    0.150 WEIGHT:    0.000
+   DB DEPTH:    0.200 WEIGHT:    0.000
+   DB DEPTH:    0.250 WEIGHT:    0.000
+   DB DEPTH:    0.300 WEIGHT:    0.000
+   DB DEPTH:    0.350 WEIGHT:    0.000
+   DB DEPTH:    0.400 WEIGHT:    0.000
+   DB DEPTH:    0.450 WEIGHT:    0.000
+   DB DEPTH:    0.500 WEIGHT:    0.000
+   DB DEPTH:    0.550 WEIGHT:    0.000
+   DB DEPTH:    0.600 WEIGHT:    0.000
+   DB DEPTH:    0.650 WEIGHT:    0.000
+   DB DEPTH:    0.700 WEIGHT:    1.000
+   DB DEPTH:    0.750 WEIGHT:    0.000
+   DB DEPTH:    0.800 WEIGHT:    0.000
+   DB DEPTH:    0.850 WEIGHT:    0.000
+   DB DEPTH:    0.900 WEIGHT:    0.000
+   DB DEPTH:    0.950 WEIGHT:    0.000
+   DB DEPTH:    1.000 WEIGHT:    0.000
+   DB DEPTH:    1.050 WEIGHT:    0.000
+   DB DEPTH:    1.100 WEIGHT:    0.000
+   DB DEPTH:    1.150 WEIGHT:    0.000
+   DB DEPTH:    1.200 WEIGHT:    0.000
+   DB DEPTH:    1.250 WEIGHT:    0.000
+   DB DEPTH:    1.300 WEIGHT:    0.000
+   DB DEPTH:    1.350 WEIGHT:    0.000
+   DB DEPTH:    1.400 WEIGHT:    0.000
+   DB DEPTH:    1.450 WEIGHT:    0.000
+   DB DEPTH:    1.500 WEIGHT:    0.000
+   DB DEPTH:    1.550 WEIGHT:    0.000
+   DB DEPTH:    1.600 WEIGHT:    0.000
+   DB DEPTH:    1.650 WEIGHT:    0.000
+   DB DEPTH:    1.700 WEIGHT:    0.000
+   DB DEPTH:    1.750 WEIGHT:    0.000
+   DB DEPTH:    1.775 WEIGHT:    0.000
+   DB DEPTH:    1.800 WEIGHT:    0.000
+   DB DEPTH:    1.825 WEIGHT:    0.000
+   DB DEPTH:    1.850 WEIGHT:    0.000
+   DB DEPTH:    1.875 WEIGHT:    0.000
+   DB DEPTH:    1.900 WEIGHT:    0.000
+  LAYER  18 DEPTH:    0.750
+   DB DEPTH:    0.025 WEIGHT:    0.000
+   DB DEPTH:    0.050 WEIGHT:    0.000
+   DB DEPTH:    0.075 WEIGHT:    0.000
+   DB DEPTH:    0.100 WEIGHT:    0.000
+   DB DEPTH:    0.125 WEIGHT:    0.000
+   DB DEPTH:    0.150 WEIGHT:    0.000
+   DB DEPTH:    0.200 WEIGHT:    0.000
+   DB DEPTH:    0.250 WEIGHT:    0.000
+   DB DEPTH:    0.300 WEIGHT:    0.000
+   DB DEPTH:    0.350 WEIGHT:    0.000
+   DB DEPTH:    0.400 WEIGHT:    0.000
+   DB DEPTH:    0.450 WEIGHT:    0.000
+   DB DEPTH:    0.500 WEIGHT:    0.000
+   DB DEPTH:    0.550 WEIGHT:    0.000
+   DB DEPTH:    0.600 WEIGHT:    0.000
+   DB DEPTH:    0.650 WEIGHT:    0.000
+   DB DEPTH:    0.700 WEIGHT:    0.000
+   DB DEPTH:    0.750 WEIGHT:    1.000
+   DB DEPTH:    0.800 WEIGHT:    0.000
+   DB DEPTH:    0.850 WEIGHT:    0.000
+   DB DEPTH:    0.900 WEIGHT:    0.000
+   DB DEPTH:    0.950 WEIGHT:    0.000
+   DB DEPTH:    1.000 WEIGHT:    0.000
+   DB DEPTH:    1.050 WEIGHT:    0.000
+   DB DEPTH:    1.100 WEIGHT:    0.000
+   DB DEPTH:    1.150 WEIGHT:    0.000
+   DB DEPTH:    1.200 WEIGHT:    0.000
+   DB DEPTH:    1.250 WEIGHT:    0.000
+   DB DEPTH:    1.300 WEIGHT:    0.000
+   DB DEPTH:    1.350 WEIGHT:    0.000
+   DB DEPTH:    1.400 WEIGHT:    0.000
+   DB DEPTH:    1.450 WEIGHT:    0.000
+   DB DEPTH:    1.500 WEIGHT:    0.000
+   DB DEPTH:    1.550 WEIGHT:    0.000
+   DB DEPTH:    1.600 WEIGHT:    0.000
+   DB DEPTH:    1.650 WEIGHT:    0.000
+   DB DEPTH:    1.700 WEIGHT:    0.000
+   DB DEPTH:    1.750 WEIGHT:    0.000
+   DB DEPTH:    1.775 WEIGHT:    0.000
+   DB DEPTH:    1.800 WEIGHT:    0.000
+   DB DEPTH:    1.825 WEIGHT:    0.000
+   DB DEPTH:    1.850 WEIGHT:    0.000
+   DB DEPTH:    1.875 WEIGHT:    0.000
+   DB DEPTH:    1.900 WEIGHT:    0.000
+  LAYER  19 DEPTH:    0.800
+   DB DEPTH:    0.025 WEIGHT:    0.000
+   DB DEPTH:    0.050 WEIGHT:    0.000
+   DB DEPTH:    0.075 WEIGHT:    0.000
+   DB DEPTH:    0.100 WEIGHT:    0.000
+   DB DEPTH:    0.125 WEIGHT:    0.000
+   DB DEPTH:    0.150 WEIGHT:    0.000
+   DB DEPTH:    0.200 WEIGHT:    0.000
+   DB DEPTH:    0.250 WEIGHT:    0.000
+   DB DEPTH:    0.300 WEIGHT:    0.000
+   DB DEPTH:    0.350 WEIGHT:    0.000
+   DB DEPTH:    0.400 WEIGHT:    0.000
+   DB DEPTH:    0.450 WEIGHT:    0.000
+   DB DEPTH:    0.500 WEIGHT:    0.000
+   DB DEPTH:    0.550 WEIGHT:    0.000
+   DB DEPTH:    0.600 WEIGHT:    0.000
+   DB DEPTH:    0.650 WEIGHT:    0.000
+   DB DEPTH:    0.700 WEIGHT:    0.000
+   DB DEPTH:    0.750 WEIGHT:    0.000
+   DB DEPTH:    0.800 WEIGHT:    1.000
+   DB DEPTH:    0.850 WEIGHT:    0.000
+   DB DEPTH:    0.900 WEIGHT:    0.000
+   DB DEPTH:    0.950 WEIGHT:    0.000
+   DB DEPTH:    1.000 WEIGHT:    0.000
+   DB DEPTH:    1.050 WEIGHT:    0.000
+   DB DEPTH:    1.100 WEIGHT:    0.000
+   DB DEPTH:    1.150 WEIGHT:    0.000
+   DB DEPTH:    1.200 WEIGHT:    0.000
+   DB DEPTH:    1.250 WEIGHT:    0.000
+   DB DEPTH:    1.300 WEIGHT:    0.000
+   DB DEPTH:    1.350 WEIGHT:    0.000
+   DB DEPTH:    1.400 WEIGHT:    0.000
+   DB DEPTH:    1.450 WEIGHT:    0.000
+   DB DEPTH:    1.500 WEIGHT:    0.000
+   DB DEPTH:    1.550 WEIGHT:    0.000
+   DB DEPTH:    1.600 WEIGHT:    0.000
+   DB DEPTH:    1.650 WEIGHT:    0.000
+   DB DEPTH:    1.700 WEIGHT:    0.000
+   DB DEPTH:    1.750 WEIGHT:    0.000
+   DB DEPTH:    1.775 WEIGHT:    0.000
+   DB DEPTH:    1.800 WEIGHT:    0.000
+   DB DEPTH:    1.825 WEIGHT:    0.000
+   DB DEPTH:    1.850 WEIGHT:    0.000
+   DB DEPTH:    1.875 WEIGHT:    0.000
+   DB DEPTH:    1.900 WEIGHT:    0.000
+  LAYER  20 DEPTH:    0.850
+   DB DEPTH:    0.025 WEIGHT:    0.000
+   DB DEPTH:    0.050 WEIGHT:    0.000
+   DB DEPTH:    0.075 WEIGHT:    0.000
+   DB DEPTH:    0.100 WEIGHT:    0.000
+   DB DEPTH:    0.125 WEIGHT:    0.000
+   DB DEPTH:    0.150 WEIGHT:    0.000
+   DB DEPTH:    0.200 WEIGHT:    0.000
+   DB DEPTH:    0.250 WEIGHT:    0.000
+   DB DEPTH:    0.300 WEIGHT:    0.000
+   DB DEPTH:    0.350 WEIGHT:    0.000
+   DB DEPTH:    0.400 WEIGHT:    0.000
+   DB DEPTH:    0.450 WEIGHT:    0.000
+   DB DEPTH:    0.500 WEIGHT:    0.000
+   DB DEPTH:    0.550 WEIGHT:    0.000
+   DB DEPTH:    0.600 WEIGHT:    0.000
+   DB DEPTH:    0.650 WEIGHT:    0.000
+   DB DEPTH:    0.700 WEIGHT:    0.000
+   DB DEPTH:    0.750 WEIGHT:    0.000
+   DB DEPTH:    0.800 WEIGHT:    0.000
+   DB DEPTH:    0.850 WEIGHT:    1.000
+   DB DEPTH:    0.900 WEIGHT:    0.000
+   DB DEPTH:    0.950 WEIGHT:    0.000
+   DB DEPTH:    1.000 WEIGHT:    0.000
+   DB DEPTH:    1.050 WEIGHT:    0.000
+   DB DEPTH:    1.100 WEIGHT:    0.000
+   DB DEPTH:    1.150 WEIGHT:    0.000
+   DB DEPTH:    1.200 WEIGHT:    0.000
+   DB DEPTH:    1.250 WEIGHT:    0.000
+   DB DEPTH:    1.300 WEIGHT:    0.000
+   DB DEPTH:    1.350 WEIGHT:    0.000
+   DB DEPTH:    1.400 WEIGHT:    0.000
+   DB DEPTH:    1.450 WEIGHT:    0.000
+   DB DEPTH:    1.500 WEIGHT:    0.000
+   DB DEPTH:    1.550 WEIGHT:    0.000
+   DB DEPTH:    1.600 WEIGHT:    0.000
+   DB DEPTH:    1.650 WEIGHT:    0.000
+   DB DEPTH:    1.700 WEIGHT:    0.000
+   DB DEPTH:    1.750 WEIGHT:    0.000
+   DB DEPTH:    1.775 WEIGHT:    0.000
+   DB DEPTH:    1.800 WEIGHT:    0.000
+   DB DEPTH:    1.825 WEIGHT:    0.000
+   DB DEPTH:    1.850 WEIGHT:    0.000
+   DB DEPTH:    1.875 WEIGHT:    0.000
+   DB DEPTH:    1.900 WEIGHT:    0.000
+  LAYER  21 DEPTH:    0.900
+   DB DEPTH:    0.025 WEIGHT:    0.000
+   DB DEPTH:    0.050 WEIGHT:    0.000
+   DB DEPTH:    0.075 WEIGHT:    0.000
+   DB DEPTH:    0.100 WEIGHT:    0.000
+   DB DEPTH:    0.125 WEIGHT:    0.000
+   DB DEPTH:    0.150 WEIGHT:    0.000
+   DB DEPTH:    0.200 WEIGHT:    0.000
+   DB DEPTH:    0.250 WEIGHT:    0.000
+   DB DEPTH:    0.300 WEIGHT:    0.000
+   DB DEPTH:    0.350 WEIGHT:    0.000
+   DB DEPTH:    0.400 WEIGHT:    0.000
+   DB DEPTH:    0.450 WEIGHT:    0.000
+   DB DEPTH:    0.500 WEIGHT:    0.000
+   DB DEPTH:    0.550 WEIGHT:    0.000
+   DB DEPTH:    0.600 WEIGHT:    0.000
+   DB DEPTH:    0.650 WEIGHT:    0.000
+   DB DEPTH:    0.700 WEIGHT:    0.000
+   DB DEPTH:    0.750 WEIGHT:    0.000
+   DB DEPTH:    0.800 WEIGHT:    0.000
+   DB DEPTH:    0.850 WEIGHT:    0.000
+   DB DEPTH:    0.900 WEIGHT:    1.000
+   DB DEPTH:    0.950 WEIGHT:    0.000
+   DB DEPTH:    1.000 WEIGHT:    0.000
+   DB DEPTH:    1.050 WEIGHT:    0.000
+   DB DEPTH:    1.100 WEIGHT:    0.000
+   DB DEPTH:    1.150 WEIGHT:    0.000
+   DB DEPTH:    1.200 WEIGHT:    0.000
+   DB DEPTH:    1.250 WEIGHT:    0.000
+   DB DEPTH:    1.300 WEIGHT:    0.000
+   DB DEPTH:    1.350 WEIGHT:    0.000
+   DB DEPTH:    1.400 WEIGHT:    0.000
+   DB DEPTH:    1.450 WEIGHT:    0.000
+   DB DEPTH:    1.500 WEIGHT:    0.000
+   DB DEPTH:    1.550 WEIGHT:    0.000
+   DB DEPTH:    1.600 WEIGHT:    0.000
+   DB DEPTH:    1.650 WEIGHT:    0.000
+   DB DEPTH:    1.700 WEIGHT:    0.000
+   DB DEPTH:    1.750 WEIGHT:    0.000
+   DB DEPTH:    1.775 WEIGHT:    0.000
+   DB DEPTH:    1.800 WEIGHT:    0.000
+   DB DEPTH:    1.825 WEIGHT:    0.000
+   DB DEPTH:    1.850 WEIGHT:    0.000
+   DB DEPTH:    1.875 WEIGHT:    0.000
+   DB DEPTH:    1.900 WEIGHT:    0.000
+  LAYER  22 DEPTH:    0.950
+   DB DEPTH:    0.025 WEIGHT:    0.000
+   DB DEPTH:    0.050 WEIGHT:    0.000
+   DB DEPTH:    0.075 WEIGHT:    0.000
+   DB DEPTH:    0.100 WEIGHT:    0.000
+   DB DEPTH:    0.125 WEIGHT:    0.000
+   DB DEPTH:    0.150 WEIGHT:    0.000
+   DB DEPTH:    0.200 WEIGHT:    0.000
+   DB DEPTH:    0.250 WEIGHT:    0.000
+   DB DEPTH:    0.300 WEIGHT:    0.000
+   DB DEPTH:    0.350 WEIGHT:    0.000
+   DB DEPTH:    0.400 WEIGHT:    0.000
+   DB DEPTH:    0.450 WEIGHT:    0.000
+   DB DEPTH:    0.500 WEIGHT:    0.000
+   DB DEPTH:    0.550 WEIGHT:    0.000
+   DB DEPTH:    0.600 WEIGHT:    0.000
+   DB DEPTH:    0.650 WEIGHT:    0.000
+   DB DEPTH:    0.700 WEIGHT:    0.000
+   DB DEPTH:    0.750 WEIGHT:    0.000
+   DB DEPTH:    0.800 WEIGHT:    0.000
+   DB DEPTH:    0.850 WEIGHT:    0.000
+   DB DEPTH:    0.900 WEIGHT:    0.000
+   DB DEPTH:    0.950 WEIGHT:    1.000
+   DB DEPTH:    1.000 WEIGHT:    0.000
+   DB DEPTH:    1.050 WEIGHT:    0.000
+   DB DEPTH:    1.100 WEIGHT:    0.000
+   DB DEPTH:    1.150 WEIGHT:    0.000
+   DB DEPTH:    1.200 WEIGHT:    0.000
+   DB DEPTH:    1.250 WEIGHT:    0.000
+   DB DEPTH:    1.300 WEIGHT:    0.000
+   DB DEPTH:    1.350 WEIGHT:    0.000
+   DB DEPTH:    1.400 WEIGHT:    0.000
+   DB DEPTH:    1.450 WEIGHT:    0.000
+   DB DEPTH:    1.500 WEIGHT:    0.000
+   DB DEPTH:    1.550 WEIGHT:    0.000
+   DB DEPTH:    1.600 WEIGHT:    0.000
+   DB DEPTH:    1.650 WEIGHT:    0.000
+   DB DEPTH:    1.700 WEIGHT:    0.000
+   DB DEPTH:    1.750 WEIGHT:    0.000
+   DB DEPTH:    1.775 WEIGHT:    0.000
+   DB DEPTH:    1.800 WEIGHT:    0.000
+   DB DEPTH:    1.825 WEIGHT:    0.000
+   DB DEPTH:    1.850 WEIGHT:    0.000
+   DB DEPTH:    1.875 WEIGHT:    0.000
+   DB DEPTH:    1.900 WEIGHT:    0.000
+  LAYER  23 DEPTH:    1.000
+   DB DEPTH:    0.025 WEIGHT:    0.000
+   DB DEPTH:    0.050 WEIGHT:    0.000
+   DB DEPTH:    0.075 WEIGHT:    0.000
+   DB DEPTH:    0.100 WEIGHT:    0.000
+   DB DEPTH:    0.125 WEIGHT:    0.000
+   DB DEPTH:    0.150 WEIGHT:    0.000
+   DB DEPTH:    0.200 WEIGHT:    0.000
+   DB DEPTH:    0.250 WEIGHT:    0.000
+   DB DEPTH:    0.300 WEIGHT:    0.000
+   DB DEPTH:    0.350 WEIGHT:    0.000
+   DB DEPTH:    0.400 WEIGHT:    0.000
+   DB DEPTH:    0.450 WEIGHT:    0.000
+   DB DEPTH:    0.500 WEIGHT:    0.000
+   DB DEPTH:    0.550 WEIGHT:    0.000
+   DB DEPTH:    0.600 WEIGHT:    0.000
+   DB DEPTH:    0.650 WEIGHT:    0.000
+   DB DEPTH:    0.700 WEIGHT:    0.000
+   DB DEPTH:    0.750 WEIGHT:    0.000
+   DB DEPTH:    0.800 WEIGHT:    0.000
+   DB DEPTH:    0.850 WEIGHT:    0.000
+   DB DEPTH:    0.900 WEIGHT:    0.000
+   DB DEPTH:    0.950 WEIGHT:    0.000
+   DB DEPTH:    1.000 WEIGHT:    1.000
+   DB DEPTH:    1.050 WEIGHT:    0.000
+   DB DEPTH:    1.100 WEIGHT:    0.000
+   DB DEPTH:    1.150 WEIGHT:    0.000
+   DB DEPTH:    1.200 WEIGHT:    0.000
+   DB DEPTH:    1.250 WEIGHT:    0.000
+   DB DEPTH:    1.300 WEIGHT:    0.000
+   DB DEPTH:    1.350 WEIGHT:    0.000
+   DB DEPTH:    1.400 WEIGHT:    0.000
+   DB DEPTH:    1.450 WEIGHT:    0.000
+   DB DEPTH:    1.500 WEIGHT:    0.000
+   DB DEPTH:    1.550 WEIGHT:    0.000
+   DB DEPTH:    1.600 WEIGHT:    0.000
+   DB DEPTH:    1.650 WEIGHT:    0.000
+   DB DEPTH:    1.700 WEIGHT:    0.000
+   DB DEPTH:    1.750 WEIGHT:    0.000
+   DB DEPTH:    1.775 WEIGHT:    0.000
+   DB DEPTH:    1.800 WEIGHT:    0.000
+   DB DEPTH:    1.825 WEIGHT:    0.000
+   DB DEPTH:    1.850 WEIGHT:    0.000
+   DB DEPTH:    1.875 WEIGHT:    0.000
+   DB DEPTH:    1.900 WEIGHT:    0.000
+  LAYER  24 DEPTH:    1.050
+   DB DEPTH:    0.025 WEIGHT:    0.000
+   DB DEPTH:    0.050 WEIGHT:    0.000
+   DB DEPTH:    0.075 WEIGHT:    0.000
+   DB DEPTH:    0.100 WEIGHT:    0.000
+   DB DEPTH:    0.125 WEIGHT:    0.000
+   DB DEPTH:    0.150 WEIGHT:    0.000
+   DB DEPTH:    0.200 WEIGHT:    0.000
+   DB DEPTH:    0.250 WEIGHT:    0.000
+   DB DEPTH:    0.300 WEIGHT:    0.000
+   DB DEPTH:    0.350 WEIGHT:    0.000
+   DB DEPTH:    0.400 WEIGHT:    0.000
+   DB DEPTH:    0.450 WEIGHT:    0.000
+   DB DEPTH:    0.500 WEIGHT:    0.000
+   DB DEPTH:    0.550 WEIGHT:    0.000
+   DB DEPTH:    0.600 WEIGHT:    0.000
+   DB DEPTH:    0.650 WEIGHT:    0.000
+   DB DEPTH:    0.700 WEIGHT:    0.000
+   DB DEPTH:    0.750 WEIGHT:    0.000
+   DB DEPTH:    0.800 WEIGHT:    0.000
+   DB DEPTH:    0.850 WEIGHT:    0.000
+   DB DEPTH:    0.900 WEIGHT:    0.000
+   DB DEPTH:    0.950 WEIGHT:    0.000
+   DB DEPTH:    1.000 WEIGHT:    0.000
+   DB DEPTH:    1.050 WEIGHT:    1.000
+   DB DEPTH:    1.100 WEIGHT:    0.000
+   DB DEPTH:    1.150 WEIGHT:    0.000
+   DB DEPTH:    1.200 WEIGHT:    0.000
+   DB DEPTH:    1.250 WEIGHT:    0.000
+   DB DEPTH:    1.300 WEIGHT:    0.000
+   DB DEPTH:    1.350 WEIGHT:    0.000
+   DB DEPTH:    1.400 WEIGHT:    0.000
+   DB DEPTH:    1.450 WEIGHT:    0.000
+   DB DEPTH:    1.500 WEIGHT:    0.000
+   DB DEPTH:    1.550 WEIGHT:    0.000
+   DB DEPTH:    1.600 WEIGHT:    0.000
+   DB DEPTH:    1.650 WEIGHT:    0.000
+   DB DEPTH:    1.700 WEIGHT:    0.000
+   DB DEPTH:    1.750 WEIGHT:    0.000
+   DB DEPTH:    1.775 WEIGHT:    0.000
+   DB DEPTH:    1.800 WEIGHT:    0.000
+   DB DEPTH:    1.825 WEIGHT:    0.000
+   DB DEPTH:    1.850 WEIGHT:    0.000
+   DB DEPTH:    1.875 WEIGHT:    0.000
+   DB DEPTH:    1.900 WEIGHT:    0.000
+  LAYER  25 DEPTH:    1.100
+   DB DEPTH:    0.025 WEIGHT:    0.000
+   DB DEPTH:    0.050 WEIGHT:    0.000
+   DB DEPTH:    0.075 WEIGHT:    0.000
+   DB DEPTH:    0.100 WEIGHT:    0.000
+   DB DEPTH:    0.125 WEIGHT:    0.000
+   DB DEPTH:    0.150 WEIGHT:    0.000
+   DB DEPTH:    0.200 WEIGHT:    0.000
+   DB DEPTH:    0.250 WEIGHT:    0.000
+   DB DEPTH:    0.300 WEIGHT:    0.000
+   DB DEPTH:    0.350 WEIGHT:    0.000
+   DB DEPTH:    0.400 WEIGHT:    0.000
+   DB DEPTH:    0.450 WEIGHT:    0.000
+   DB DEPTH:    0.500 WEIGHT:    0.000
+   DB DEPTH:    0.550 WEIGHT:    0.000
+   DB DEPTH:    0.600 WEIGHT:    0.000
+   DB DEPTH:    0.650 WEIGHT:    0.000
+   DB DEPTH:    0.700 WEIGHT:    0.000
+   DB DEPTH:    0.750 WEIGHT:    0.000
+   DB DEPTH:    0.800 WEIGHT:    0.000
+   DB DEPTH:    0.850 WEIGHT:    0.000
+   DB DEPTH:    0.900 WEIGHT:    0.000
+   DB DEPTH:    0.950 WEIGHT:    0.000
+   DB DEPTH:    1.000 WEIGHT:    0.000
+   DB DEPTH:    1.050 WEIGHT:    0.000
+   DB DEPTH:    1.100 WEIGHT:    1.000
+   DB DEPTH:    1.150 WEIGHT:    0.000
+   DB DEPTH:    1.200 WEIGHT:    0.000
+   DB DEPTH:    1.250 WEIGHT:    0.000
+   DB DEPTH:    1.300 WEIGHT:    0.000
+   DB DEPTH:    1.350 WEIGHT:    0.000
+   DB DEPTH:    1.400 WEIGHT:    0.000
+   DB DEPTH:    1.450 WEIGHT:    0.000
+   DB DEPTH:    1.500 WEIGHT:    0.000
+   DB DEPTH:    1.550 WEIGHT:    0.000
+   DB DEPTH:    1.600 WEIGHT:    0.000
+   DB DEPTH:    1.650 WEIGHT:    0.000
+   DB DEPTH:    1.700 WEIGHT:    0.000
+   DB DEPTH:    1.750 WEIGHT:    0.000
+   DB DEPTH:    1.775 WEIGHT:    0.000
+   DB DEPTH:    1.800 WEIGHT:    0.000
+   DB DEPTH:    1.825 WEIGHT:    0.000
+   DB DEPTH:    1.850 WEIGHT:    0.000
+   DB DEPTH:    1.875 WEIGHT:    0.000
+   DB DEPTH:    1.900 WEIGHT:    0.000
+  LAYER  26 DEPTH:    1.150
+   DB DEPTH:    0.025 WEIGHT:    0.000
+   DB DEPTH:    0.050 WEIGHT:    0.000
+   DB DEPTH:    0.075 WEIGHT:    0.000
+   DB DEPTH:    0.100 WEIGHT:    0.000
+   DB DEPTH:    0.125 WEIGHT:    0.000
+   DB DEPTH:    0.150 WEIGHT:    0.000
+   DB DEPTH:    0.200 WEIGHT:    0.000
+   DB DEPTH:    0.250 WEIGHT:    0.000
+   DB DEPTH:    0.300 WEIGHT:    0.000
+   DB DEPTH:    0.350 WEIGHT:    0.000
+   DB DEPTH:    0.400 WEIGHT:    0.000
+   DB DEPTH:    0.450 WEIGHT:    0.000
+   DB DEPTH:    0.500 WEIGHT:    0.000
+   DB DEPTH:    0.550 WEIGHT:    0.000
+   DB DEPTH:    0.600 WEIGHT:    0.000
+   DB DEPTH:    0.650 WEIGHT:    0.000
+   DB DEPTH:    0.700 WEIGHT:    0.000
+   DB DEPTH:    0.750 WEIGHT:    0.000
+   DB DEPTH:    0.800 WEIGHT:    0.000
+   DB DEPTH:    0.850 WEIGHT:    0.000
+   DB DEPTH:    0.900 WEIGHT:    0.000
+   DB DEPTH:    0.950 WEIGHT:    0.000
+   DB DEPTH:    1.000 WEIGHT:    0.000
+   DB DEPTH:    1.050 WEIGHT:    0.000
+   DB DEPTH:    1.100 WEIGHT:    0.000
+   DB DEPTH:    1.150 WEIGHT:    1.000
+   DB DEPTH:    1.200 WEIGHT:    0.000
+   DB DEPTH:    1.250 WEIGHT:    0.000
+   DB DEPTH:    1.300 WEIGHT:    0.000
+   DB DEPTH:    1.350 WEIGHT:    0.000
+   DB DEPTH:    1.400 WEIGHT:    0.000
+   DB DEPTH:    1.450 WEIGHT:    0.000
+   DB DEPTH:    1.500 WEIGHT:    0.000
+   DB DEPTH:    1.550 WEIGHT:    0.000
+   DB DEPTH:    1.600 WEIGHT:    0.000
+   DB DEPTH:    1.650 WEIGHT:    0.000
+   DB DEPTH:    1.700 WEIGHT:    0.000
+   DB DEPTH:    1.750 WEIGHT:    0.000
+   DB DEPTH:    1.775 WEIGHT:    0.000
+   DB DEPTH:    1.800 WEIGHT:    0.000
+   DB DEPTH:    1.825 WEIGHT:    0.000
+   DB DEPTH:    1.850 WEIGHT:    0.000
+   DB DEPTH:    1.875 WEIGHT:    0.000
+   DB DEPTH:    1.900 WEIGHT:    0.000
+  LAYER  27 DEPTH:    1.200
+   DB DEPTH:    0.025 WEIGHT:    0.000
+   DB DEPTH:    0.050 WEIGHT:    0.000
+   DB DEPTH:    0.075 WEIGHT:    0.000
+   DB DEPTH:    0.100 WEIGHT:    0.000
+   DB DEPTH:    0.125 WEIGHT:    0.000
+   DB DEPTH:    0.150 WEIGHT:    0.000
+   DB DEPTH:    0.200 WEIGHT:    0.000
+   DB DEPTH:    0.250 WEIGHT:    0.000
+   DB DEPTH:    0.300 WEIGHT:    0.000
+   DB DEPTH:    0.350 WEIGHT:    0.000
+   DB DEPTH:    0.400 WEIGHT:    0.000
+   DB DEPTH:    0.450 WEIGHT:    0.000
+   DB DEPTH:    0.500 WEIGHT:    0.000
+   DB DEPTH:    0.550 WEIGHT:    0.000
+   DB DEPTH:    0.600 WEIGHT:    0.000
+   DB DEPTH:    0.650 WEIGHT:    0.000
+   DB DEPTH:    0.700 WEIGHT:    0.000
+   DB DEPTH:    0.750 WEIGHT:    0.000
+   DB DEPTH:    0.800 WEIGHT:    0.000
+   DB DEPTH:    0.850 WEIGHT:    0.000
+   DB DEPTH:    0.900 WEIGHT:    0.000
+   DB DEPTH:    0.950 WEIGHT:    0.000
+   DB DEPTH:    1.000 WEIGHT:    0.000
+   DB DEPTH:    1.050 WEIGHT:    0.000
+   DB DEPTH:    1.100 WEIGHT:    0.000
+   DB DEPTH:    1.150 WEIGHT:    0.000
+   DB DEPTH:    1.200 WEIGHT:    1.000
+   DB DEPTH:    1.250 WEIGHT:    0.000
+   DB DEPTH:    1.300 WEIGHT:    0.000
+   DB DEPTH:    1.350 WEIGHT:    0.000
+   DB DEPTH:    1.400 WEIGHT:    0.000
+   DB DEPTH:    1.450 WEIGHT:    0.000
+   DB DEPTH:    1.500 WEIGHT:    0.000
+   DB DEPTH:    1.550 WEIGHT:    0.000
+   DB DEPTH:    1.600 WEIGHT:    0.000
+   DB DEPTH:    1.650 WEIGHT:    0.000
+   DB DEPTH:    1.700 WEIGHT:    0.000
+   DB DEPTH:    1.750 WEIGHT:    0.000
+   DB DEPTH:    1.775 WEIGHT:    0.000
+   DB DEPTH:    1.800 WEIGHT:    0.000
+   DB DEPTH:    1.825 WEIGHT:    0.000
+   DB DEPTH:    1.850 WEIGHT:    0.000
+   DB DEPTH:    1.875 WEIGHT:    0.000
+   DB DEPTH:    1.900 WEIGHT:    0.000
+  LAYER  28 DEPTH:    1.250
+   DB DEPTH:    0.025 WEIGHT:    0.000
+   DB DEPTH:    0.050 WEIGHT:    0.000
+   DB DEPTH:    0.075 WEIGHT:    0.000
+   DB DEPTH:    0.100 WEIGHT:    0.000
+   DB DEPTH:    0.125 WEIGHT:    0.000
+   DB DEPTH:    0.150 WEIGHT:    0.000
+   DB DEPTH:    0.200 WEIGHT:    0.000
+   DB DEPTH:    0.250 WEIGHT:    0.000
+   DB DEPTH:    0.300 WEIGHT:    0.000
+   DB DEPTH:    0.350 WEIGHT:    0.000
+   DB DEPTH:    0.400 WEIGHT:    0.000
+   DB DEPTH:    0.450 WEIGHT:    0.000
+   DB DEPTH:    0.500 WEIGHT:    0.000
+   DB DEPTH:    0.550 WEIGHT:    0.000
+   DB DEPTH:    0.600 WEIGHT:    0.000
+   DB DEPTH:    0.650 WEIGHT:    0.000
+   DB DEPTH:    0.700 WEIGHT:    0.000
+   DB DEPTH:    0.750 WEIGHT:    0.000
+   DB DEPTH:    0.800 WEIGHT:    0.000
+   DB DEPTH:    0.850 WEIGHT:    0.000
+   DB DEPTH:    0.900 WEIGHT:    0.000
+   DB DEPTH:    0.950 WEIGHT:    0.000
+   DB DEPTH:    1.000 WEIGHT:    0.000
+   DB DEPTH:    1.050 WEIGHT:    0.000
+   DB DEPTH:    1.100 WEIGHT:    0.000
+   DB DEPTH:    1.150 WEIGHT:    0.000
+   DB DEPTH:    1.200 WEIGHT:    0.000
+   DB DEPTH:    1.250 WEIGHT:    1.000
+   DB DEPTH:    1.300 WEIGHT:    0.000
+   DB DEPTH:    1.350 WEIGHT:    0.000
+   DB DEPTH:    1.400 WEIGHT:    0.000
+   DB DEPTH:    1.450 WEIGHT:    0.000
+   DB DEPTH:    1.500 WEIGHT:    0.000
+   DB DEPTH:    1.550 WEIGHT:    0.000
+   DB DEPTH:    1.600 WEIGHT:    0.000
+   DB DEPTH:    1.650 WEIGHT:    0.000
+   DB DEPTH:    1.700 WEIGHT:    0.000
+   DB DEPTH:    1.750 WEIGHT:    0.000
+   DB DEPTH:    1.775 WEIGHT:    0.000
+   DB DEPTH:    1.800 WEIGHT:    0.000
+   DB DEPTH:    1.825 WEIGHT:    0.000
+   DB DEPTH:    1.850 WEIGHT:    0.000
+   DB DEPTH:    1.875 WEIGHT:    0.000
+   DB DEPTH:    1.900 WEIGHT:    0.000
+  LAYER  29 DEPTH:    1.300
+   DB DEPTH:    0.025 WEIGHT:    0.000
+   DB DEPTH:    0.050 WEIGHT:    0.000
+   DB DEPTH:    0.075 WEIGHT:    0.000
+   DB DEPTH:    0.100 WEIGHT:    0.000
+   DB DEPTH:    0.125 WEIGHT:    0.000
+   DB DEPTH:    0.150 WEIGHT:    0.000
+   DB DEPTH:    0.200 WEIGHT:    0.000
+   DB DEPTH:    0.250 WEIGHT:    0.000
+   DB DEPTH:    0.300 WEIGHT:    0.000
+   DB DEPTH:    0.350 WEIGHT:    0.000
+   DB DEPTH:    0.400 WEIGHT:    0.000
+   DB DEPTH:    0.450 WEIGHT:    0.000
+   DB DEPTH:    0.500 WEIGHT:    0.000
+   DB DEPTH:    0.550 WEIGHT:    0.000
+   DB DEPTH:    0.600 WEIGHT:    0.000
+   DB DEPTH:    0.650 WEIGHT:    0.000
+   DB DEPTH:    0.700 WEIGHT:    0.000
+   DB DEPTH:    0.750 WEIGHT:    0.000
+   DB DEPTH:    0.800 WEIGHT:    0.000
+   DB DEPTH:    0.850 WEIGHT:    0.000
+   DB DEPTH:    0.900 WEIGHT:    0.000
+   DB DEPTH:    0.950 WEIGHT:    0.000
+   DB DEPTH:    1.000 WEIGHT:    0.000
+   DB DEPTH:    1.050 WEIGHT:    0.000
+   DB DEPTH:    1.100 WEIGHT:    0.000
+   DB DEPTH:    1.150 WEIGHT:    0.000
+   DB DEPTH:    1.200 WEIGHT:    0.000
+   DB DEPTH:    1.250 WEIGHT:    0.000
+   DB DEPTH:    1.300 WEIGHT:    1.000
+   DB DEPTH:    1.350 WEIGHT:    0.000
+   DB DEPTH:    1.400 WEIGHT:    0.000
+   DB DEPTH:    1.450 WEIGHT:    0.000
+   DB DEPTH:    1.500 WEIGHT:    0.000
+   DB DEPTH:    1.550 WEIGHT:    0.000
+   DB DEPTH:    1.600 WEIGHT:    0.000
+   DB DEPTH:    1.650 WEIGHT:    0.000
+   DB DEPTH:    1.700 WEIGHT:    0.000
+   DB DEPTH:    1.750 WEIGHT:    0.000
+   DB DEPTH:    1.775 WEIGHT:    0.000
+   DB DEPTH:    1.800 WEIGHT:    0.000
+   DB DEPTH:    1.825 WEIGHT:    0.000
+   DB DEPTH:    1.850 WEIGHT:    0.000
+   DB DEPTH:    1.875 WEIGHT:    0.000
+   DB DEPTH:    1.900 WEIGHT:    0.000
+  LAYER  30 DEPTH:    1.350
+   DB DEPTH:    0.025 WEIGHT:    0.000
+   DB DEPTH:    0.050 WEIGHT:    0.000
+   DB DEPTH:    0.075 WEIGHT:    0.000
+   DB DEPTH:    0.100 WEIGHT:    0.000
+   DB DEPTH:    0.125 WEIGHT:    0.000
+   DB DEPTH:    0.150 WEIGHT:    0.000
+   DB DEPTH:    0.200 WEIGHT:    0.000
+   DB DEPTH:    0.250 WEIGHT:    0.000
+   DB DEPTH:    0.300 WEIGHT:    0.000
+   DB DEPTH:    0.350 WEIGHT:    0.000
+   DB DEPTH:    0.400 WEIGHT:    0.000
+   DB DEPTH:    0.450 WEIGHT:    0.000
+   DB DEPTH:    0.500 WEIGHT:    0.000
+   DB DEPTH:    0.550 WEIGHT:    0.000
+   DB DEPTH:    0.600 WEIGHT:    0.000
+   DB DEPTH:    0.650 WEIGHT:    0.000
+   DB DEPTH:    0.700 WEIGHT:    0.000
+   DB DEPTH:    0.750 WEIGHT:    0.000
+   DB DEPTH:    0.800 WEIGHT:    0.000
+   DB DEPTH:    0.850 WEIGHT:    0.000
+   DB DEPTH:    0.900 WEIGHT:    0.000
+   DB DEPTH:    0.950 WEIGHT:    0.000
+   DB DEPTH:    1.000 WEIGHT:    0.000
+   DB DEPTH:    1.050 WEIGHT:    0.000
+   DB DEPTH:    1.100 WEIGHT:    0.000
+   DB DEPTH:    1.150 WEIGHT:    0.000
+   DB DEPTH:    1.200 WEIGHT:    0.000
+   DB DEPTH:    1.250 WEIGHT:    0.000
+   DB DEPTH:    1.300 WEIGHT:    0.000
+   DB DEPTH:    1.350 WEIGHT:    1.000
+   DB DEPTH:    1.400 WEIGHT:    0.000
+   DB DEPTH:    1.450 WEIGHT:    0.000
+   DB DEPTH:    1.500 WEIGHT:    0.000
+   DB DEPTH:    1.550 WEIGHT:    0.000
+   DB DEPTH:    1.600 WEIGHT:    0.000
+   DB DEPTH:    1.650 WEIGHT:    0.000
+   DB DEPTH:    1.700 WEIGHT:    0.000
+   DB DEPTH:    1.750 WEIGHT:    0.000
+   DB DEPTH:    1.775 WEIGHT:    0.000
+   DB DEPTH:    1.800 WEIGHT:    0.000
+   DB DEPTH:    1.825 WEIGHT:    0.000
+   DB DEPTH:    1.850 WEIGHT:    0.000
+   DB DEPTH:    1.875 WEIGHT:    0.000
+   DB DEPTH:    1.900 WEIGHT:    0.000
+  LAYER  31 DEPTH:    1.400
+   DB DEPTH:    0.025 WEIGHT:    0.000
+   DB DEPTH:    0.050 WEIGHT:    0.000
+   DB DEPTH:    0.075 WEIGHT:    0.000
+   DB DEPTH:    0.100 WEIGHT:    0.000
+   DB DEPTH:    0.125 WEIGHT:    0.000
+   DB DEPTH:    0.150 WEIGHT:    0.000
+   DB DEPTH:    0.200 WEIGHT:    0.000
+   DB DEPTH:    0.250 WEIGHT:    0.000
+   DB DEPTH:    0.300 WEIGHT:    0.000
+   DB DEPTH:    0.350 WEIGHT:    0.000
+   DB DEPTH:    0.400 WEIGHT:    0.000
+   DB DEPTH:    0.450 WEIGHT:    0.000
+   DB DEPTH:    0.500 WEIGHT:    0.000
+   DB DEPTH:    0.550 WEIGHT:    0.000
+   DB DEPTH:    0.600 WEIGHT:    0.000
+   DB DEPTH:    0.650 WEIGHT:    0.000
+   DB DEPTH:    0.700 WEIGHT:    0.000
+   DB DEPTH:    0.750 WEIGHT:    0.000
+   DB DEPTH:    0.800 WEIGHT:    0.000
+   DB DEPTH:    0.850 WEIGHT:    0.000
+   DB DEPTH:    0.900 WEIGHT:    0.000
+   DB DEPTH:    0.950 WEIGHT:    0.000
+   DB DEPTH:    1.000 WEIGHT:    0.000
+   DB DEPTH:    1.050 WEIGHT:    0.000
+   DB DEPTH:    1.100 WEIGHT:    0.000
+   DB DEPTH:    1.150 WEIGHT:    0.000
+   DB DEPTH:    1.200 WEIGHT:    0.000
+   DB DEPTH:    1.250 WEIGHT:    0.000
+   DB DEPTH:    1.300 WEIGHT:    0.000
+   DB DEPTH:    1.350 WEIGHT:    0.000
+   DB DEPTH:    1.400 WEIGHT:    1.000
+   DB DEPTH:    1.450 WEIGHT:    0.000
+   DB DEPTH:    1.500 WEIGHT:    0.000
+   DB DEPTH:    1.550 WEIGHT:    0.000
+   DB DEPTH:    1.600 WEIGHT:    0.000
+   DB DEPTH:    1.650 WEIGHT:    0.000
+   DB DEPTH:    1.700 WEIGHT:    0.000
+   DB DEPTH:    1.750 WEIGHT:    0.000
+   DB DEPTH:    1.775 WEIGHT:    0.000
+   DB DEPTH:    1.800 WEIGHT:    0.000
+   DB DEPTH:    1.825 WEIGHT:    0.000
+   DB DEPTH:    1.850 WEIGHT:    0.000
+   DB DEPTH:    1.875 WEIGHT:    0.000
+   DB DEPTH:    1.900 WEIGHT:    0.000
+  LAYER  32 DEPTH:    1.450
+   DB DEPTH:    0.025 WEIGHT:    0.000
+   DB DEPTH:    0.050 WEIGHT:    0.000
+   DB DEPTH:    0.075 WEIGHT:    0.000
+   DB DEPTH:    0.100 WEIGHT:    0.000
+   DB DEPTH:    0.125 WEIGHT:    0.000
+   DB DEPTH:    0.150 WEIGHT:    0.000
+   DB DEPTH:    0.200 WEIGHT:    0.000
+   DB DEPTH:    0.250 WEIGHT:    0.000
+   DB DEPTH:    0.300 WEIGHT:    0.000
+   DB DEPTH:    0.350 WEIGHT:    0.000
+   DB DEPTH:    0.400 WEIGHT:    0.000
+   DB DEPTH:    0.450 WEIGHT:    0.000
+   DB DEPTH:    0.500 WEIGHT:    0.000
+   DB DEPTH:    0.550 WEIGHT:    0.000
+   DB DEPTH:    0.600 WEIGHT:    0.000
+   DB DEPTH:    0.650 WEIGHT:    0.000
+   DB DEPTH:    0.700 WEIGHT:    0.000
+   DB DEPTH:    0.750 WEIGHT:    0.000
+   DB DEPTH:    0.800 WEIGHT:    0.000
+   DB DEPTH:    0.850 WEIGHT:    0.000
+   DB DEPTH:    0.900 WEIGHT:    0.000
+   DB DEPTH:    0.950 WEIGHT:    0.000
+   DB DEPTH:    1.000 WEIGHT:    0.000
+   DB DEPTH:    1.050 WEIGHT:    0.000
+   DB DEPTH:    1.100 WEIGHT:    0.000
+   DB DEPTH:    1.150 WEIGHT:    0.000
+   DB DEPTH:    1.200 WEIGHT:    0.000
+   DB DEPTH:    1.250 WEIGHT:    0.000
+   DB DEPTH:    1.300 WEIGHT:    0.000
+   DB DEPTH:    1.350 WEIGHT:    0.000
+   DB DEPTH:    1.400 WEIGHT:    0.000
+   DB DEPTH:    1.450 WEIGHT:    1.000
+   DB DEPTH:    1.500 WEIGHT:    0.000
+   DB DEPTH:    1.550 WEIGHT:    0.000
+   DB DEPTH:    1.600 WEIGHT:    0.000
+   DB DEPTH:    1.650 WEIGHT:    0.000
+   DB DEPTH:    1.700 WEIGHT:    0.000
+   DB DEPTH:    1.750 WEIGHT:    0.000
+   DB DEPTH:    1.775 WEIGHT:    0.000
+   DB DEPTH:    1.800 WEIGHT:    0.000
+   DB DEPTH:    1.825 WEIGHT:    0.000
+   DB DEPTH:    1.850 WEIGHT:    0.000
+   DB DEPTH:    1.875 WEIGHT:    0.000
+   DB DEPTH:    1.900 WEIGHT:    0.000
+  LAYER  33 DEPTH:    1.500
+   DB DEPTH:    0.025 WEIGHT:    0.000
+   DB DEPTH:    0.050 WEIGHT:    0.000
+   DB DEPTH:    0.075 WEIGHT:    0.000
+   DB DEPTH:    0.100 WEIGHT:    0.000
+   DB DEPTH:    0.125 WEIGHT:    0.000
+   DB DEPTH:    0.150 WEIGHT:    0.000
+   DB DEPTH:    0.200 WEIGHT:    0.000
+   DB DEPTH:    0.250 WEIGHT:    0.000
+   DB DEPTH:    0.300 WEIGHT:    0.000
+   DB DEPTH:    0.350 WEIGHT:    0.000
+   DB DEPTH:    0.400 WEIGHT:    0.000
+   DB DEPTH:    0.450 WEIGHT:    0.000
+   DB DEPTH:    0.500 WEIGHT:    0.000
+   DB DEPTH:    0.550 WEIGHT:    0.000
+   DB DEPTH:    0.600 WEIGHT:    0.000
+   DB DEPTH:    0.650 WEIGHT:    0.000
+   DB DEPTH:    0.700 WEIGHT:    0.000
+   DB DEPTH:    0.750 WEIGHT:    0.000
+   DB DEPTH:    0.800 WEIGHT:    0.000
+   DB DEPTH:    0.850 WEIGHT:    0.000
+   DB DEPTH:    0.900 WEIGHT:    0.000
+   DB DEPTH:    0.950 WEIGHT:    0.000
+   DB DEPTH:    1.000 WEIGHT:    0.000
+   DB DEPTH:    1.050 WEIGHT:    0.000
+   DB DEPTH:    1.100 WEIGHT:    0.000
+   DB DEPTH:    1.150 WEIGHT:    0.000
+   DB DEPTH:    1.200 WEIGHT:    0.000
+   DB DEPTH:    1.250 WEIGHT:    0.000
+   DB DEPTH:    1.300 WEIGHT:    0.000
+   DB DEPTH:    1.350 WEIGHT:    0.000
+   DB DEPTH:    1.400 WEIGHT:    0.000
+   DB DEPTH:    1.450 WEIGHT:    0.000
+   DB DEPTH:    1.500 WEIGHT:    1.000
+   DB DEPTH:    1.550 WEIGHT:    0.000
+   DB DEPTH:    1.600 WEIGHT:    0.000
+   DB DEPTH:    1.650 WEIGHT:    0.000
+   DB DEPTH:    1.700 WEIGHT:    0.000
+   DB DEPTH:    1.750 WEIGHT:    0.000
+   DB DEPTH:    1.775 WEIGHT:    0.000
+   DB DEPTH:    1.800 WEIGHT:    0.000
+   DB DEPTH:    1.825 WEIGHT:    0.000
+   DB DEPTH:    1.850 WEIGHT:    0.000
+   DB DEPTH:    1.875 WEIGHT:    0.000
+   DB DEPTH:    1.900 WEIGHT:    0.000
+  LAYER  34 DEPTH:    1.550
+   DB DEPTH:    0.025 WEIGHT:    0.000
+   DB DEPTH:    0.050 WEIGHT:    0.000
+   DB DEPTH:    0.075 WEIGHT:    0.000
+   DB DEPTH:    0.100 WEIGHT:    0.000
+   DB DEPTH:    0.125 WEIGHT:    0.000
+   DB DEPTH:    0.150 WEIGHT:    0.000
+   DB DEPTH:    0.200 WEIGHT:    0.000
+   DB DEPTH:    0.250 WEIGHT:    0.000
+   DB DEPTH:    0.300 WEIGHT:    0.000
+   DB DEPTH:    0.350 WEIGHT:    0.000
+   DB DEPTH:    0.400 WEIGHT:    0.000
+   DB DEPTH:    0.450 WEIGHT:    0.000
+   DB DEPTH:    0.500 WEIGHT:    0.000
+   DB DEPTH:    0.550 WEIGHT:    0.000
+   DB DEPTH:    0.600 WEIGHT:    0.000
+   DB DEPTH:    0.650 WEIGHT:    0.000
+   DB DEPTH:    0.700 WEIGHT:    0.000
+   DB DEPTH:    0.750 WEIGHT:    0.000
+   DB DEPTH:    0.800 WEIGHT:    0.000
+   DB DEPTH:    0.850 WEIGHT:    0.000
+   DB DEPTH:    0.900 WEIGHT:    0.000
+   DB DEPTH:    0.950 WEIGHT:    0.000
+   DB DEPTH:    1.000 WEIGHT:    0.000
+   DB DEPTH:    1.050 WEIGHT:    0.000
+   DB DEPTH:    1.100 WEIGHT:    0.000
+   DB DEPTH:    1.150 WEIGHT:    0.000
+   DB DEPTH:    1.200 WEIGHT:    0.000
+   DB DEPTH:    1.250 WEIGHT:    0.000
+   DB DEPTH:    1.300 WEIGHT:    0.000
+   DB DEPTH:    1.350 WEIGHT:    0.000
+   DB DEPTH:    1.400 WEIGHT:    0.000
+   DB DEPTH:    1.450 WEIGHT:    0.000
+   DB DEPTH:    1.500 WEIGHT:    0.000
+   DB DEPTH:    1.550 WEIGHT:    1.000
+   DB DEPTH:    1.600 WEIGHT:    0.000
+   DB DEPTH:    1.650 WEIGHT:    0.000
+   DB DEPTH:    1.700 WEIGHT:    0.000
+   DB DEPTH:    1.750 WEIGHT:    0.000
+   DB DEPTH:    1.775 WEIGHT:    0.000
+   DB DEPTH:    1.800 WEIGHT:    0.000
+   DB DEPTH:    1.825 WEIGHT:    0.000
+   DB DEPTH:    1.850 WEIGHT:    0.000
+   DB DEPTH:    1.875 WEIGHT:    0.000
+   DB DEPTH:    1.900 WEIGHT:    0.000
+  LAYER  35 DEPTH:    1.600
+   DB DEPTH:    0.025 WEIGHT:    0.000
+   DB DEPTH:    0.050 WEIGHT:    0.000
+   DB DEPTH:    0.075 WEIGHT:    0.000
+   DB DEPTH:    0.100 WEIGHT:    0.000
+   DB DEPTH:    0.125 WEIGHT:    0.000
+   DB DEPTH:    0.150 WEIGHT:    0.000
+   DB DEPTH:    0.200 WEIGHT:    0.000
+   DB DEPTH:    0.250 WEIGHT:    0.000
+   DB DEPTH:    0.300 WEIGHT:    0.000
+   DB DEPTH:    0.350 WEIGHT:    0.000
+   DB DEPTH:    0.400 WEIGHT:    0.000
+   DB DEPTH:    0.450 WEIGHT:    0.000
+   DB DEPTH:    0.500 WEIGHT:    0.000
+   DB DEPTH:    0.550 WEIGHT:    0.000
+   DB DEPTH:    0.600 WEIGHT:    0.000
+   DB DEPTH:    0.650 WEIGHT:    0.000
+   DB DEPTH:    0.700 WEIGHT:    0.000
+   DB DEPTH:    0.750 WEIGHT:    0.000
+   DB DEPTH:    0.800 WEIGHT:    0.000
+   DB DEPTH:    0.850 WEIGHT:    0.000
+   DB DEPTH:    0.900 WEIGHT:    0.000
+   DB DEPTH:    0.950 WEIGHT:    0.000
+   DB DEPTH:    1.000 WEIGHT:    0.000
+   DB DEPTH:    1.050 WEIGHT:    0.000
+   DB DEPTH:    1.100 WEIGHT:    0.000
+   DB DEPTH:    1.150 WEIGHT:    0.000
+   DB DEPTH:    1.200 WEIGHT:    0.000
+   DB DEPTH:    1.250 WEIGHT:    0.000
+   DB DEPTH:    1.300 WEIGHT:    0.000
+   DB DEPTH:    1.350 WEIGHT:    0.000
+   DB DEPTH:    1.400 WEIGHT:    0.000
+   DB DEPTH:    1.450 WEIGHT:    0.000
+   DB DEPTH:    1.500 WEIGHT:    0.000
+   DB DEPTH:    1.550 WEIGHT:    0.000
+   DB DEPTH:    1.600 WEIGHT:    1.000
+   DB DEPTH:    1.650 WEIGHT:    0.000
+   DB DEPTH:    1.700 WEIGHT:    0.000
+   DB DEPTH:    1.750 WEIGHT:    0.000
+   DB DEPTH:    1.775 WEIGHT:    0.000
+   DB DEPTH:    1.800 WEIGHT:    0.000
+   DB DEPTH:    1.825 WEIGHT:    0.000
+   DB DEPTH:    1.850 WEIGHT:    0.000
+   DB DEPTH:    1.875 WEIGHT:    0.000
+   DB DEPTH:    1.900 WEIGHT:    0.000
+  LAYER  36 DEPTH:    1.650
+   DB DEPTH:    0.025 WEIGHT:    0.000
+   DB DEPTH:    0.050 WEIGHT:    0.000
+   DB DEPTH:    0.075 WEIGHT:    0.000
+   DB DEPTH:    0.100 WEIGHT:    0.000
+   DB DEPTH:    0.125 WEIGHT:    0.000
+   DB DEPTH:    0.150 WEIGHT:    0.000
+   DB DEPTH:    0.200 WEIGHT:    0.000
+   DB DEPTH:    0.250 WEIGHT:    0.000
+   DB DEPTH:    0.300 WEIGHT:    0.000
+   DB DEPTH:    0.350 WEIGHT:    0.000
+   DB DEPTH:    0.400 WEIGHT:    0.000
+   DB DEPTH:    0.450 WEIGHT:    0.000
+   DB DEPTH:    0.500 WEIGHT:    0.000
+   DB DEPTH:    0.550 WEIGHT:    0.000
+   DB DEPTH:    0.600 WEIGHT:    0.000
+   DB DEPTH:    0.650 WEIGHT:    0.000
+   DB DEPTH:    0.700 WEIGHT:    0.000
+   DB DEPTH:    0.750 WEIGHT:    0.000
+   DB DEPTH:    0.800 WEIGHT:    0.000
+   DB DEPTH:    0.850 WEIGHT:    0.000
+   DB DEPTH:    0.900 WEIGHT:    0.000
+   DB DEPTH:    0.950 WEIGHT:    0.000
+   DB DEPTH:    1.000 WEIGHT:    0.000
+   DB DEPTH:    1.050 WEIGHT:    0.000
+   DB DEPTH:    1.100 WEIGHT:    0.000
+   DB DEPTH:    1.150 WEIGHT:    0.000
+   DB DEPTH:    1.200 WEIGHT:    0.000
+   DB DEPTH:    1.250 WEIGHT:    0.000
+   DB DEPTH:    1.300 WEIGHT:    0.000
+   DB DEPTH:    1.350 WEIGHT:    0.000
+   DB DEPTH:    1.400 WEIGHT:    0.000
+   DB DEPTH:    1.450 WEIGHT:    0.000
+   DB DEPTH:    1.500 WEIGHT:    0.000
+   DB DEPTH:    1.550 WEIGHT:    0.000
+   DB DEPTH:    1.600 WEIGHT:    0.000
+   DB DEPTH:    1.650 WEIGHT:    1.000
+   DB DEPTH:    1.700 WEIGHT:    0.000
+   DB DEPTH:    1.750 WEIGHT:    0.000
+   DB DEPTH:    1.775 WEIGHT:    0.000
+   DB DEPTH:    1.800 WEIGHT:    0.000
+   DB DEPTH:    1.825 WEIGHT:    0.000
+   DB DEPTH:    1.850 WEIGHT:    0.000
+   DB DEPTH:    1.875 WEIGHT:    0.000
+   DB DEPTH:    1.900 WEIGHT:    0.000
+  LAYER  37 DEPTH:    1.700
+   DB DEPTH:    0.025 WEIGHT:    0.000
+   DB DEPTH:    0.050 WEIGHT:    0.000
+   DB DEPTH:    0.075 WEIGHT:    0.000
+   DB DEPTH:    0.100 WEIGHT:    0.000
+   DB DEPTH:    0.125 WEIGHT:    0.000
+   DB DEPTH:    0.150 WEIGHT:    0.000
+   DB DEPTH:    0.200 WEIGHT:    0.000
+   DB DEPTH:    0.250 WEIGHT:    0.000
+   DB DEPTH:    0.300 WEIGHT:    0.000
+   DB DEPTH:    0.350 WEIGHT:    0.000
+   DB DEPTH:    0.400 WEIGHT:    0.000
+   DB DEPTH:    0.450 WEIGHT:    0.000
+   DB DEPTH:    0.500 WEIGHT:    0.000
+   DB DEPTH:    0.550 WEIGHT:    0.000
+   DB DEPTH:    0.600 WEIGHT:    0.000
+   DB DEPTH:    0.650 WEIGHT:    0.000
+   DB DEPTH:    0.700 WEIGHT:    0.000
+   DB DEPTH:    0.750 WEIGHT:    0.000
+   DB DEPTH:    0.800 WEIGHT:    0.000
+   DB DEPTH:    0.850 WEIGHT:    0.000
+   DB DEPTH:    0.900 WEIGHT:    0.000
+   DB DEPTH:    0.950 WEIGHT:    0.000
+   DB DEPTH:    1.000 WEIGHT:    0.000
+   DB DEPTH:    1.050 WEIGHT:    0.000
+   DB DEPTH:    1.100 WEIGHT:    0.000
+   DB DEPTH:    1.150 WEIGHT:    0.000
+   DB DEPTH:    1.200 WEIGHT:    0.000
+   DB DEPTH:    1.250 WEIGHT:    0.000
+   DB DEPTH:    1.300 WEIGHT:    0.000
+   DB DEPTH:    1.350 WEIGHT:    0.000
+   DB DEPTH:    1.400 WEIGHT:    0.000
+   DB DEPTH:    1.450 WEIGHT:    0.000
+   DB DEPTH:    1.500 WEIGHT:    0.000
+   DB DEPTH:    1.550 WEIGHT:    0.000
+   DB DEPTH:    1.600 WEIGHT:    0.000
+   DB DEPTH:    1.650 WEIGHT:    0.000
+   DB DEPTH:    1.700 WEIGHT:    1.000
+   DB DEPTH:    1.750 WEIGHT:    0.000
+   DB DEPTH:    1.775 WEIGHT:    0.000
+   DB DEPTH:    1.800 WEIGHT:    0.000
+   DB DEPTH:    1.825 WEIGHT:    0.000
+   DB DEPTH:    1.850 WEIGHT:    0.000
+   DB DEPTH:    1.875 WEIGHT:    0.000
+   DB DEPTH:    1.900 WEIGHT:    0.000
+  LAYER  38 DEPTH:    1.750
+   DB DEPTH:    0.025 WEIGHT:    0.000
+   DB DEPTH:    0.050 WEIGHT:    0.000
+   DB DEPTH:    0.075 WEIGHT:    0.000
+   DB DEPTH:    0.100 WEIGHT:    0.000
+   DB DEPTH:    0.125 WEIGHT:    0.000
+   DB DEPTH:    0.150 WEIGHT:    0.000
+   DB DEPTH:    0.200 WEIGHT:    0.000
+   DB DEPTH:    0.250 WEIGHT:    0.000
+   DB DEPTH:    0.300 WEIGHT:    0.000
+   DB DEPTH:    0.350 WEIGHT:    0.000
+   DB DEPTH:    0.400 WEIGHT:    0.000
+   DB DEPTH:    0.450 WEIGHT:    0.000
+   DB DEPTH:    0.500 WEIGHT:    0.000
+   DB DEPTH:    0.550 WEIGHT:    0.000
+   DB DEPTH:    0.600 WEIGHT:    0.000
+   DB DEPTH:    0.650 WEIGHT:    0.000
+   DB DEPTH:    0.700 WEIGHT:    0.000
+   DB DEPTH:    0.750 WEIGHT:    0.000
+   DB DEPTH:    0.800 WEIGHT:    0.000
+   DB DEPTH:    0.850 WEIGHT:    0.000
+   DB DEPTH:    0.900 WEIGHT:    0.000
+   DB DEPTH:    0.950 WEIGHT:    0.000
+   DB DEPTH:    1.000 WEIGHT:    0.000
+   DB DEPTH:    1.050 WEIGHT:    0.000
+   DB DEPTH:    1.100 WEIGHT:    0.000
+   DB DEPTH:    1.150 WEIGHT:    0.000
+   DB DEPTH:    1.200 WEIGHT:    0.000
+   DB DEPTH:    1.250 WEIGHT:    0.000
+   DB DEPTH:    1.300 WEIGHT:    0.000
+   DB DEPTH:    1.350 WEIGHT:    0.000
+   DB DEPTH:    1.400 WEIGHT:    0.000
+   DB DEPTH:    1.450 WEIGHT:    0.000
+   DB DEPTH:    1.500 WEIGHT:    0.000
+   DB DEPTH:    1.550 WEIGHT:    0.000
+   DB DEPTH:    1.600 WEIGHT:    0.000
+   DB DEPTH:    1.650 WEIGHT:    0.000
+   DB DEPTH:    1.700 WEIGHT:    0.000
+   DB DEPTH:    1.750 WEIGHT:    1.000
+   DB DEPTH:    1.775 WEIGHT:    0.000
+   DB DEPTH:    1.800 WEIGHT:    0.000
+   DB DEPTH:    1.825 WEIGHT:    0.000
+   DB DEPTH:    1.850 WEIGHT:    0.000
+   DB DEPTH:    1.875 WEIGHT:    0.000
+   DB DEPTH:    1.900 WEIGHT:    0.000
+  LAYER  39 DEPTH:    1.775
+   DB DEPTH:    0.025 WEIGHT:    0.000
+   DB DEPTH:    0.050 WEIGHT:    0.000
+   DB DEPTH:    0.075 WEIGHT:    0.000
+   DB DEPTH:    0.100 WEIGHT:    0.000
+   DB DEPTH:    0.125 WEIGHT:    0.000
+   DB DEPTH:    0.150 WEIGHT:    0.000
+   DB DEPTH:    0.200 WEIGHT:    0.000
+   DB DEPTH:    0.250 WEIGHT:    0.000
+   DB DEPTH:    0.300 WEIGHT:    0.000
+   DB DEPTH:    0.350 WEIGHT:    0.000
+   DB DEPTH:    0.400 WEIGHT:    0.000
+   DB DEPTH:    0.450 WEIGHT:    0.000
+   DB DEPTH:    0.500 WEIGHT:    0.000
+   DB DEPTH:    0.550 WEIGHT:    0.000
+   DB DEPTH:    0.600 WEIGHT:    0.000
+   DB DEPTH:    0.650 WEIGHT:    0.000
+   DB DEPTH:    0.700 WEIGHT:    0.000
+   DB DEPTH:    0.750 WEIGHT:    0.000
+   DB DEPTH:    0.800 WEIGHT:    0.000
+   DB DEPTH:    0.850 WEIGHT:    0.000
+   DB DEPTH:    0.900 WEIGHT:    0.000
+   DB DEPTH:    0.950 WEIGHT:    0.000
+   DB DEPTH:    1.000 WEIGHT:    0.000
+   DB DEPTH:    1.050 WEIGHT:    0.000
+   DB DEPTH:    1.100 WEIGHT:    0.000
+   DB DEPTH:    1.150 WEIGHT:    0.000
+   DB DEPTH:    1.200 WEIGHT:    0.000
+   DB DEPTH:    1.250 WEIGHT:    0.000
+   DB DEPTH:    1.300 WEIGHT:    0.000
+   DB DEPTH:    1.350 WEIGHT:    0.000
+   DB DEPTH:    1.400 WEIGHT:    0.000
+   DB DEPTH:    1.450 WEIGHT:    0.000
+   DB DEPTH:    1.500 WEIGHT:    0.000
+   DB DEPTH:    1.550 WEIGHT:    0.000
+   DB DEPTH:    1.600 WEIGHT:    0.000
+   DB DEPTH:    1.650 WEIGHT:    0.000
+   DB DEPTH:    1.700 WEIGHT:    0.000
+   DB DEPTH:    1.750 WEIGHT:    0.000
+   DB DEPTH:    1.775 WEIGHT:    1.000
+   DB DEPTH:    1.800 WEIGHT:    0.000
+   DB DEPTH:    1.825 WEIGHT:    0.000
+   DB DEPTH:    1.850 WEIGHT:    0.000
+   DB DEPTH:    1.875 WEIGHT:    0.000
+   DB DEPTH:    1.900 WEIGHT:    0.000
+  LAYER  40 DEPTH:    1.800
+   DB DEPTH:    0.025 WEIGHT:    0.000
+   DB DEPTH:    0.050 WEIGHT:    0.000
+   DB DEPTH:    0.075 WEIGHT:    0.000
+   DB DEPTH:    0.100 WEIGHT:    0.000
+   DB DEPTH:    0.125 WEIGHT:    0.000
+   DB DEPTH:    0.150 WEIGHT:    0.000
+   DB DEPTH:    0.200 WEIGHT:    0.000
+   DB DEPTH:    0.250 WEIGHT:    0.000
+   DB DEPTH:    0.300 WEIGHT:    0.000
+   DB DEPTH:    0.350 WEIGHT:    0.000
+   DB DEPTH:    0.400 WEIGHT:    0.000
+   DB DEPTH:    0.450 WEIGHT:    0.000
+   DB DEPTH:    0.500 WEIGHT:    0.000
+   DB DEPTH:    0.550 WEIGHT:    0.000
+   DB DEPTH:    0.600 WEIGHT:    0.000
+   DB DEPTH:    0.650 WEIGHT:    0.000
+   DB DEPTH:    0.700 WEIGHT:    0.000
+   DB DEPTH:    0.750 WEIGHT:    0.000
+   DB DEPTH:    0.800 WEIGHT:    0.000
+   DB DEPTH:    0.850 WEIGHT:    0.000
+   DB DEPTH:    0.900 WEIGHT:    0.000
+   DB DEPTH:    0.950 WEIGHT:    0.000
+   DB DEPTH:    1.000 WEIGHT:    0.000
+   DB DEPTH:    1.050 WEIGHT:    0.000
+   DB DEPTH:    1.100 WEIGHT:    0.000
+   DB DEPTH:    1.150 WEIGHT:    0.000
+   DB DEPTH:    1.200 WEIGHT:    0.000
+   DB DEPTH:    1.250 WEIGHT:    0.000
+   DB DEPTH:    1.300 WEIGHT:    0.000
+   DB DEPTH:    1.350 WEIGHT:    0.000
+   DB DEPTH:    1.400 WEIGHT:    0.000
+   DB DEPTH:    1.450 WEIGHT:    0.000
+   DB DEPTH:    1.500 WEIGHT:    0.000
+   DB DEPTH:    1.550 WEIGHT:    0.000
+   DB DEPTH:    1.600 WEIGHT:    0.000
+   DB DEPTH:    1.650 WEIGHT:    0.000
+   DB DEPTH:    1.700 WEIGHT:    0.000
+   DB DEPTH:    1.750 WEIGHT:    0.000
+   DB DEPTH:    1.775 WEIGHT:    0.000
+   DB DEPTH:    1.800 WEIGHT:    1.000
+   DB DEPTH:    1.825 WEIGHT:    0.000
+   DB DEPTH:    1.850 WEIGHT:    0.000
+   DB DEPTH:    1.875 WEIGHT:    0.000
+   DB DEPTH:    1.900 WEIGHT:    0.000
+  LAYER  41 DEPTH:    1.825
+   DB DEPTH:    0.025 WEIGHT:    0.000
+   DB DEPTH:    0.050 WEIGHT:    0.000
+   DB DEPTH:    0.075 WEIGHT:    0.000
+   DB DEPTH:    0.100 WEIGHT:    0.000
+   DB DEPTH:    0.125 WEIGHT:    0.000
+   DB DEPTH:    0.150 WEIGHT:    0.000
+   DB DEPTH:    0.200 WEIGHT:    0.000
+   DB DEPTH:    0.250 WEIGHT:    0.000
+   DB DEPTH:    0.300 WEIGHT:    0.000
+   DB DEPTH:    0.350 WEIGHT:    0.000
+   DB DEPTH:    0.400 WEIGHT:    0.000
+   DB DEPTH:    0.450 WEIGHT:    0.000
+   DB DEPTH:    0.500 WEIGHT:    0.000
+   DB DEPTH:    0.550 WEIGHT:    0.000
+   DB DEPTH:    0.600 WEIGHT:    0.000
+   DB DEPTH:    0.650 WEIGHT:    0.000
+   DB DEPTH:    0.700 WEIGHT:    0.000
+   DB DEPTH:    0.750 WEIGHT:    0.000
+   DB DEPTH:    0.800 WEIGHT:    0.000
+   DB DEPTH:    0.850 WEIGHT:    0.000
+   DB DEPTH:    0.900 WEIGHT:    0.000
+   DB DEPTH:    0.950 WEIGHT:    0.000
+   DB DEPTH:    1.000 WEIGHT:    0.000
+   DB DEPTH:    1.050 WEIGHT:    0.000
+   DB DEPTH:    1.100 WEIGHT:    0.000
+   DB DEPTH:    1.150 WEIGHT:    0.000
+   DB DEPTH:    1.200 WEIGHT:    0.000
+   DB DEPTH:    1.250 WEIGHT:    0.000
+   DB DEPTH:    1.300 WEIGHT:    0.000
+   DB DEPTH:    1.350 WEIGHT:    0.000
+   DB DEPTH:    1.400 WEIGHT:    0.000
+   DB DEPTH:    1.450 WEIGHT:    0.000
+   DB DEPTH:    1.500 WEIGHT:    0.000
+   DB DEPTH:    1.550 WEIGHT:    0.000
+   DB DEPTH:    1.600 WEIGHT:    0.000
+   DB DEPTH:    1.650 WEIGHT:    0.000
+   DB DEPTH:    1.700 WEIGHT:    0.000
+   DB DEPTH:    1.750 WEIGHT:    0.000
+   DB DEPTH:    1.775 WEIGHT:    0.000
+   DB DEPTH:    1.800 WEIGHT:    0.000
+   DB DEPTH:    1.825 WEIGHT:    1.000
+   DB DEPTH:    1.850 WEIGHT:    0.000
+   DB DEPTH:    1.875 WEIGHT:    0.000
+   DB DEPTH:    1.900 WEIGHT:    0.000
+  LAYER  42 DEPTH:    1.850
+   DB DEPTH:    0.025 WEIGHT:    0.000
+   DB DEPTH:    0.050 WEIGHT:    0.000
+   DB DEPTH:    0.075 WEIGHT:    0.000
+   DB DEPTH:    0.100 WEIGHT:    0.000
+   DB DEPTH:    0.125 WEIGHT:    0.000
+   DB DEPTH:    0.150 WEIGHT:    0.000
+   DB DEPTH:    0.200 WEIGHT:    0.000
+   DB DEPTH:    0.250 WEIGHT:    0.000
+   DB DEPTH:    0.300 WEIGHT:    0.000
+   DB DEPTH:    0.350 WEIGHT:    0.000
+   DB DEPTH:    0.400 WEIGHT:    0.000
+   DB DEPTH:    0.450 WEIGHT:    0.000
+   DB DEPTH:    0.500 WEIGHT:    0.000
+   DB DEPTH:    0.550 WEIGHT:    0.000
+   DB DEPTH:    0.600 WEIGHT:    0.000
+   DB DEPTH:    0.650 WEIGHT:    0.000
+   DB DEPTH:    0.700 WEIGHT:    0.000
+   DB DEPTH:    0.750 WEIGHT:    0.000
+   DB DEPTH:    0.800 WEIGHT:    0.000
+   DB DEPTH:    0.850 WEIGHT:    0.000
+   DB DEPTH:    0.900 WEIGHT:    0.000
+   DB DEPTH:    0.950 WEIGHT:    0.000
+   DB DEPTH:    1.000 WEIGHT:    0.000
+   DB DEPTH:    1.050 WEIGHT:    0.000
+   DB DEPTH:    1.100 WEIGHT:    0.000
+   DB DEPTH:    1.150 WEIGHT:    0.000
+   DB DEPTH:    1.200 WEIGHT:    0.000
+   DB DEPTH:    1.250 WEIGHT:    0.000
+   DB DEPTH:    1.300 WEIGHT:    0.000
+   DB DEPTH:    1.350 WEIGHT:    0.000
+   DB DEPTH:    1.400 WEIGHT:    0.000
+   DB DEPTH:    1.450 WEIGHT:    0.000
+   DB DEPTH:    1.500 WEIGHT:    0.000
+   DB DEPTH:    1.550 WEIGHT:    0.000
+   DB DEPTH:    1.600 WEIGHT:    0.000
+   DB DEPTH:    1.650 WEIGHT:    0.000
+   DB DEPTH:    1.700 WEIGHT:    0.000
+   DB DEPTH:    1.750 WEIGHT:    0.000
+   DB DEPTH:    1.775 WEIGHT:    0.000
+   DB DEPTH:    1.800 WEIGHT:    0.000
+   DB DEPTH:    1.825 WEIGHT:    0.000
+   DB DEPTH:    1.850 WEIGHT:    1.000
+   DB DEPTH:    1.875 WEIGHT:    0.000
+   DB DEPTH:    1.900 WEIGHT:    0.000
+  LAYER  43 DEPTH:    1.875
+   DB DEPTH:    0.025 WEIGHT:    0.000
+   DB DEPTH:    0.050 WEIGHT:    0.000
+   DB DEPTH:    0.075 WEIGHT:    0.000
+   DB DEPTH:    0.100 WEIGHT:    0.000
+   DB DEPTH:    0.125 WEIGHT:    0.000
+   DB DEPTH:    0.150 WEIGHT:    0.000
+   DB DEPTH:    0.200 WEIGHT:    0.000
+   DB DEPTH:    0.250 WEIGHT:    0.000
+   DB DEPTH:    0.300 WEIGHT:    0.000
+   DB DEPTH:    0.350 WEIGHT:    0.000
+   DB DEPTH:    0.400 WEIGHT:    0.000
+   DB DEPTH:    0.450 WEIGHT:    0.000
+   DB DEPTH:    0.500 WEIGHT:    0.000
+   DB DEPTH:    0.550 WEIGHT:    0.000
+   DB DEPTH:    0.600 WEIGHT:    0.000
+   DB DEPTH:    0.650 WEIGHT:    0.000
+   DB DEPTH:    0.700 WEIGHT:    0.000
+   DB DEPTH:    0.750 WEIGHT:    0.000
+   DB DEPTH:    0.800 WEIGHT:    0.000
+   DB DEPTH:    0.850 WEIGHT:    0.000
+   DB DEPTH:    0.900 WEIGHT:    0.000
+   DB DEPTH:    0.950 WEIGHT:    0.000
+   DB DEPTH:    1.000 WEIGHT:    0.000
+   DB DEPTH:    1.050 WEIGHT:    0.000
+   DB DEPTH:    1.100 WEIGHT:    0.000
+   DB DEPTH:    1.150 WEIGHT:    0.000
+   DB DEPTH:    1.200 WEIGHT:    0.000
+   DB DEPTH:    1.250 WEIGHT:    0.000
+   DB DEPTH:    1.300 WEIGHT:    0.000
+   DB DEPTH:    1.350 WEIGHT:    0.000
+   DB DEPTH:    1.400 WEIGHT:    0.000
+   DB DEPTH:    1.450 WEIGHT:    0.000
+   DB DEPTH:    1.500 WEIGHT:    0.000
+   DB DEPTH:    1.550 WEIGHT:    0.000
+   DB DEPTH:    1.600 WEIGHT:    0.000
+   DB DEPTH:    1.650 WEIGHT:    0.000
+   DB DEPTH:    1.700 WEIGHT:    0.000
+   DB DEPTH:    1.750 WEIGHT:    0.000
+   DB DEPTH:    1.775 WEIGHT:    0.000
+   DB DEPTH:    1.800 WEIGHT:    0.000
+   DB DEPTH:    1.825 WEIGHT:    0.000
+   DB DEPTH:    1.850 WEIGHT:    0.000
+   DB DEPTH:    1.875 WEIGHT:    1.000
+   DB DEPTH:    1.900 WEIGHT:    0.000
+  LAYER  44 DEPTH:    1.900
+   DB DEPTH:    0.025 WEIGHT:    0.000
+   DB DEPTH:    0.050 WEIGHT:    0.000
+   DB DEPTH:    0.075 WEIGHT:    0.000
+   DB DEPTH:    0.100 WEIGHT:    0.000
+   DB DEPTH:    0.125 WEIGHT:    0.000
+   DB DEPTH:    0.150 WEIGHT:    0.000
+   DB DEPTH:    0.200 WEIGHT:    0.000
+   DB DEPTH:    0.250 WEIGHT:    0.000
+   DB DEPTH:    0.300 WEIGHT:    0.000
+   DB DEPTH:    0.350 WEIGHT:    0.000
+   DB DEPTH:    0.400 WEIGHT:    0.000
+   DB DEPTH:    0.450 WEIGHT:    0.000
+   DB DEPTH:    0.500 WEIGHT:    0.000
+   DB DEPTH:    0.550 WEIGHT:    0.000
+   DB DEPTH:    0.600 WEIGHT:    0.000
+   DB DEPTH:    0.650 WEIGHT:    0.000
+   DB DEPTH:    0.700 WEIGHT:    0.000
+   DB DEPTH:    0.750 WEIGHT:    0.000
+   DB DEPTH:    0.800 WEIGHT:    0.000
+   DB DEPTH:    0.850 WEIGHT:    0.000
+   DB DEPTH:    0.900 WEIGHT:    0.000
+   DB DEPTH:    0.950 WEIGHT:    0.000
+   DB DEPTH:    1.000 WEIGHT:    0.000
+   DB DEPTH:    1.050 WEIGHT:    0.000
+   DB DEPTH:    1.100 WEIGHT:    0.000
+   DB DEPTH:    1.150 WEIGHT:    0.000
+   DB DEPTH:    1.200 WEIGHT:    0.000
+   DB DEPTH:    1.250 WEIGHT:    0.000
+   DB DEPTH:    1.300 WEIGHT:    0.000
+   DB DEPTH:    1.350 WEIGHT:    0.000
+   DB DEPTH:    1.400 WEIGHT:    0.000
+   DB DEPTH:    1.450 WEIGHT:    0.000
+   DB DEPTH:    1.500 WEIGHT:    0.000
+   DB DEPTH:    1.550 WEIGHT:    0.000
+   DB DEPTH:    1.600 WEIGHT:    0.000
+   DB DEPTH:    1.650 WEIGHT:    0.000
+   DB DEPTH:    1.700 WEIGHT:    0.000
+   DB DEPTH:    1.750 WEIGHT:    0.000
+   DB DEPTH:    1.775 WEIGHT:    0.000
+   DB DEPTH:    1.800 WEIGHT:    0.000
+   DB DEPTH:    1.825 WEIGHT:    0.000
+   DB DEPTH:    1.850 WEIGHT:    0.000
+   DB DEPTH:    1.875 WEIGHT:    0.000
+   DB DEPTH:    1.900 WEIGHT:    1.000
+ SOIL TEXTURE:
+              % SAND    % CLAY
+  LAYER   1:   66.200     7.700
+  LAYER   2:   66.200     7.700
+  LAYER   3:   66.200     7.700
+  LAYER   4:   66.200     7.700
+  LAYER   5:   66.200     7.700
+  LAYER   6:   66.200     7.700
+  LAYER   7:   66.200     7.700
+  LAYER   8:   66.200     7.700
+  LAYER   9:   66.200     7.700
+  LAYER  10:   66.200     7.700
+  LAYER  11:   66.200     7.700
+  LAYER  12:   66.200     7.700
+  LAYER  13:   66.200     7.700
+  LAYER  14:   66.200     7.700
+  LAYER  15:   66.200     7.700
+  LAYER  16:   66.200     7.700
