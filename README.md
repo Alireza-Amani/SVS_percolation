@@ -1,7 +1,7 @@
 # SVS_percolation
 
 ## Overview
-This repository, SVS_percolation, contains the source code and associated scripts required to reproduce the simulations presented in the manuscript titled "Process-based Simulation of Percolation from Various Landfill Covers in a Cold Climate".
+This repository, SVS_percolation, contains the source code and associated scripts required to reproduce the simulations presented in the manuscript titled "Process-based simulations of percolation from various landfill final covers in a cold climate".
 
 ## Content
 The repository contains the following notable files and directories:
@@ -22,8 +22,9 @@ The repository contains the following notable files and directories:
 4. Run the `run_all_simulations.ipynb` Jupyter notebook to start the simulations.
 5. Use the `evaluations.ipynb` and `plot_SimVsObs.ipynb` notebooks as needed to calculate evaluation metrics and plot simulation results against observation data.
 
-## Contributions
-Contributions to this project are welcome. If you wish to contribute, please create a new branch for your changes and submit a pull request for review.
+## Notes
+For compiling the SVS source code the reader is advised to refer to the [official guide](https://wiki.usask.ca/pages/viewpage.action?pageId=1885438549). <br><br>
+In our case, we compiled the code with **gfortran** version "GNU Fortran (GCC) 9.3.0" on macOS (12.6.5). If you have gfortran installed, compiling it with would be as simple as running the following command in your terminal: `make gfortran OUT=SVS_EXEC_CUSTOM_NAME`. 
 
 ## License
 This project is licensed under the MIT License.
