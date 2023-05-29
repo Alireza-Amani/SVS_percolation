@@ -1,6 +1,6 @@
-# SVS_percolation Repository
+# SVS_percolation
 
-Welcome to the SVS_percolation repository. This repository hosts the source code and associated scripts necessary to reproduce the simulations presented in the manuscript, "Process-based simulations of percolation from various landfill final covers in a cold climate".
+Welcome to the SVS_percolation repository. This repository hosts the source code and associated scripts necessary to reproduce the simulations presented in the manuscript, ["Process-based simulations of percolation from various landfill final covers in a cold climate"](https://doi.org/10.22541/au.168530442.27895846/v1).
 
 ## Contents of the Repository
 
