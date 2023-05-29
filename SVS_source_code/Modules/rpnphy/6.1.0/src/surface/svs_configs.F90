@@ -35,7 +35,9 @@ module svs_configs
 
    ! store read parameters temporarily
    REAL :: temp_scalar_var(1)
-   REAL, POINTER, DIMENSION(:) :: temp_var
+
+   ! declare and init
+   REAL, POINTER, DIMENSION(:) :: temp_var => NULL()
 
    ! user defined lower boundary condition:
    ! threshold, in terms of water content, to start percolating

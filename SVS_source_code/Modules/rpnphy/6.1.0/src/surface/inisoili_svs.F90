@@ -50,6 +50,7 @@ subroutine inisoili_svs(ni, trnch)
    ! print info for each read param call
    LOGICAL :: read_param_message
 
+
 #define MKPTR1D(NAME1,NAME2) nullify(NAME1); if (vd%NAME2%i > 0 .and. associated(busptr(vd%NAME2%i)%ptr)) NAME1(1:ni) => busptr(vd%NAME2%i)%ptr(:,trnch)
 #define MKPTR2D(NAME1,NAME2) nullify(NAME1); if (vd%NAME2%i > 0 .and. associated(busptr(vd%NAME2%i)%ptr)) NAME1(1:ni,1:vd%NAME2%mul*vd%NAME2%niveaux) => busptr(vd%NAME2%i)%ptr(:,trnch)
 
@@ -73,6 +74,7 @@ subroutine inisoili_svs(ni, trnch)
    MKPTR2D(zcondsld , condsld)
    MKPTR2D(zrhosoil , rhosoil)
    MKPTR2D(zquartz , quartz)
+
 
    ! store read parameters temporarily
    ! this helps with dealing with different number of layers
